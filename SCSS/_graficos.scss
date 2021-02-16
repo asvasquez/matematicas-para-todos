@@ -1,0 +1,112 @@
+.padre1{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-content: space-between;
+	flex-basis: 1200px;
+	width: 1220px;
+	height: 8000px;
+	background-image: linear-gradient(#D1FDD7, #257315, #D1FDD7)
+}
+.plan{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: flex-end;
+	
+}
+
+#graficos{
+	transform: skew(20deg);
+}
+%fuentePlan2{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 1100px;
+	padding: 30px;
+	margin-top: 50px;
+}
+.plan1{
+	@extend %fuentePlan2;
+	flex-direction: column;
+	
+}
+.plan2{
+	@extend %fuentePlan2;
+	flex-direction: column;
+	flex-basis: 500px;
+	flex-shrink: 3;
+}
+%fuentePlan{
+	justify-items:center;
+	align-items: center;
+	border: 7px brown;
+	padding: 5px;
+}
+
+.padre1{
+	@include cambiarMain(8000px);
+	display: grid;
+	grid-template-columns: 1100px;
+	grid-template-rows: 300px; 
+	border:inset 2px brown;
+}
+
+.plan5{
+	display: grid;
+	grid-template-columns: 400px 600px;
+	grid-template-rows: 300px; 
+}
+.plan6{
+  display: grid;
+  grid-template-columns: 1100px;
+  grid-column-gap: 20px;
+  grid-row-gap: 55px;
+  justify-content: center;
+  align-content: center;
+  margin: 22px;
+  grid-template-areas:  "geo"
+  						"video"
+  						"sabias"
+  						"jugando"
+  						"comenta"
+    
+}
+.plan7{
+	grid-area:geo; 
+	@extend %fuentePlan;
+	border: double;
+}
+.plan8{
+	grid-area:video; 
+	@extend %fuentePlan;
+	border: groove;
+}
+.plan9{
+	grid-area:sabias; 
+	@extend %fuentePlan;
+	border: ridge;
+}
+.plan10{
+	grid-area:jugando; 
+	@extend %fuentePlan;
+	border: dotted;
+}
+.plan11{
+	grid-area:comenta; 
+	justify-items:stretch;
+	align-items: stretch;
+	border: dashed 7px brown;
+	padding: 5px;
+
+}
+
+.footer_mod--geo{
+	display: inline-block;
+	padding: 20px;
+	width: 1220px;
+	background-image: linear-gradient(#D1FDD7, #257315)
+}
+

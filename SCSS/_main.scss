@@ -1,0 +1,156 @@
+
+main{
+	@include cambiarMain(1000px);
+	display: inline-block;
+	padding: 20px;
+	background-image: linear-gradient(#D1FDD7, #257315, #D1FDD7)
+	}
+a{
+	color:#8f0947;
+	text-decoration: line-none;
+}
+
+h2{
+	color:#1F740D;
+	text-transform: uppercase;
+	font-style: normal;
+	font-family: 'Playfair Display', serif;
+	font-size: 40px;
+	text-align: center;
+	letter-spacing:5px;
+	line-height: 40px ;
+	word-spacing: 5px;
+	justify-content: center;
+
+}
+h3{
+	color: #c215b6;
+	text-decoration: underline;
+	font-style: normal;
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	text-align: left;
+	letter-spacing:5px;
+	line-height: 30px ;
+	word-spacing: 5px;
+	margin: 20px;
+
+}
+
+.materia{
+	color:#8F1D3B;
+	font-style: normal;
+	font-family: 'Playfair Display', serif;
+	font-size: $tamañoLetra;
+	text-align: justify;
+	letter-spacing:1px;
+	line-height: 20px ;
+	
+}
+.sabias{
+	color: #74100D;
+	font-style: normal;
+	font-family: 'candara', sans-serif;
+	font-size: 20px;
+	text-align: justify; 
+	letter-spacing: 1px;
+	line-height: 20px ;
+
+}
+
+.video{	
+	color:#8c8284;
+	font-style: normal;
+	font-family: 'Courrier New', serif;
+	font-size: 20px;
+	text-align: justify;
+	letter-spacing: 1px; 
+	line-height: 20px ;
+	padding: 20px;
+	align-items: center;
+
+}
+.jugando{
+	color:#A11241;
+	font-style: normal;
+	font-family: "Comic Sans MS", sans-serif;
+	font-size: 20px;
+	text-align: justify;
+	letter-spacing: 1px;
+	line-height: 22px ;
+
+}
+.arriba{
+	font-weight: bold;
+	font-style: normal;
+	font-family: impact, sans-serif;
+	font-size: 20px;
+	text-align: right;
+	letter-spacing: 1px;
+	line-height: 15px ;
+	position: fixed ;
+	top: 0;
+	left: 0;
+	align-content: end;
+}
+
+textarea{
+	font-size: 25px;
+}
+textarea:hover{
+	transform: rotate(180deg);
+}
+.boton:hover{
+	color:green;
+	transform: scale(2);
+
+}
+#algebra1{
+	background-image: url("multimedia/numeros.jpg"), url("multimedia/numeros1");
+	background-size: contain;
+	flex-grow: 1;
+	
+}
+.desplegable{
+	list-style: circle inside;
+	color:#412f78;
+	font-style: normal;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 20px;
+	text-align: left;
+	letter-spacing:2px;
+	line-height: 20px ;
+	word-spacing: 2px;
+	flex-grow: 3;
+	width: 500px;
+	padding: 30px;
+
+}
+
+.carousel-item{
+	 transition:$carousel-transitionvariable;
+	  }
+/* ************************************************************************************ */
+/*                         Aplicando estilos por etiquetas   "main Index"                   */
+/* ************************************************************************************ */ 
+.mapa{
+	width: 450px;
+	height: 400px;
+	float: left;
+	border: inset 20px #946246;
+	padding: 50px;
+}
+.desplegable2{
+	list-style: circle inside;
+	color:#412f78;
+	font-style: normal;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 20px;
+	text-align: left;
+	letter-spacing:2px;
+	line-height: 20px ;
+	word-spacing: 2px;
+	flex-grow: 3;
+	width: 300px;
+	padding: 30px;
+}

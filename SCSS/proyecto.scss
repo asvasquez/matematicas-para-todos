@@ -1,0 +1,56 @@
+
+@import "variables";
+@import "header";
+@import "cuerpo";
+@import "footer";
+@import "graficos";
+@import "geometria";
+
+
+/* ************************************************************************************ */
+/*                      Aplicando estilos por etiquetas  "general"                      */
+/* ************************************************************************************ */ 
+*{
+	padding: 0px;
+	margin: 0px;
+  background-color: $color-Fondo;
+}
+img{
+	padding:15px; 
+	width: 350px;
+	height: 200px;
+	border: groove 2px;
+}
+
+video{
+	backface-visibility: center;
+	/* why do not run*/
+}
+
+@media only screen and (max-width: 500px) {
+    .grafi1 {
+    display: grid;
+    background-color: #D9AE57;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-areas:    "geo"
+  							"video"
+  							"sabias"
+  							"jugando"
+  							"comenta"
+     }
+}
+
+@media only screen and (max-width: 250px) {
+    .grafi1 {
+    display: grid;
+    background-color: #CFA14C;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-areas:    "geo"
+  							"video"
+  							"sabias"
+  							"jugando"
+  							"comenta"
+     }
+}

@@ -1,0 +1,472 @@
+header {
+  background: linear-gradient(RGB(37, 115, 21), #D1FDD7);
+  padding: 20px;
+  display: inline-block;
+  width: 1220px;
+  height: 280px; }
+
+.padreP {
+  height: 8500px; }
+
+.ft {
+  width: 500px;
+  height: 270;
+  float: left; }
+
+.anima {
+  background-image: url("multimedia/caos.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  display: grid; }
+
+.anima:hover {
+  animation-name: efecto;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  position: relative; }
+
+@keyframes efecto {
+  from {
+    transform: scale(1, 2);
+    background-image: linear-gradient(to left top, green, brown);
+    border-radius: 225px;
+    opacity: 0.9;
+    transform: skewX(25deg);
+    transform: translate(300px); }
+  20% {
+    transform: skewX(50deg);
+    transform: scale(1);
+    transition: rotate(25deg);
+    color: white; }
+  75% {
+    transition: rotate(250deg);
+    transform: skewX(25deg); }
+  to {
+    transform: scale(1); } }
+
+.fk {
+  width: 680px;
+  height: 80px;
+  padding: 20px;
+  float: left;
+  text-align: right;
+  position: relative; }
+
+.desplegableInicio {
+  list-style-type: square;
+  list-style-position: outside;
+  color: #1F740D;
+  font-style: normal;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  text-align: left;
+  letter-spacing: 2px;
+  line-height: 20px;
+  word-spacing: 2px;
+  width: 680px;
+  height: 109px;
+  float: right;
+  padding: 20px;
+  position: relative; }
+
+.uno {
+  list-style-type: none;
+  font-size: 0px; }
+  .uno .dos {
+    display: inline-block;
+    width: 18%;
+    height: 25%;
+    font-size: 18px;
+    position: right;
+    border: outset 5px #946246; }
+
+.uno .tres {
+  position: absolute;
+  display: none; }
+  .uno .tres li {
+    display: block;
+    border: solid 2px #946246; }
+
+.uno li:hover .tres {
+  display: block; }
+
+h1 {
+  color: #1CA330; }
+
+main {
+  height: 1000px;
+  display: inline-block;
+  padding: 20px;
+  background-image: linear-gradient(#D1FDD7, #257315, #D1FDD7); }
+
+a {
+  color: #8f0947;
+  text-decoration: line-none; }
+
+h2 {
+  color: #1F740D;
+  text-transform: uppercase;
+  font-style: normal;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 5px;
+  line-height: 40px;
+  word-spacing: 5px;
+  justify-content: center; }
+
+h3 {
+  color: #c215b6;
+  text-decoration: underline;
+  font-style: normal;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  text-align: left;
+  letter-spacing: 5px;
+  line-height: 30px;
+  word-spacing: 5px;
+  margin: 20px; }
+
+.main_largo--frac {
+  height: 9000px;
+  width: 1300px; }
+
+.materia {
+  color: #8F1D3B;
+  font-style: normal;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 20px; }
+
+.sabias {
+  color: #74100D;
+  font-style: normal;
+  font-family: 'candara', sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 20px; }
+
+.video {
+  color: #8c8284;
+  font-style: normal;
+  font-family: 'Courrier New', serif;
+  font-size: 20px;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 20px;
+  padding: 20px;
+  align-items: center; }
+
+.jugando {
+  color: #A11241;
+  font-style: normal;
+  font-family: "Comic Sans MS", sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 22px; }
+
+.arriba {
+  font-weight: bold;
+  font-style: normal;
+  font-family: impact, sans-serif;
+  font-size: 20px;
+  text-align: right;
+  letter-spacing: 1px;
+  line-height: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-content: end; }
+
+textarea {
+  font-size: 25px; }
+
+textarea:hover {
+  transform: rotate(180deg); }
+
+.boton:hover {
+  color: green;
+  transform: scale(2); }
+
+#algebra1 {
+  background-image: url("multimedia/numeros.jpg"), url("multimedia/numeros1");
+  background-size: contain;
+  flex-grow: 1; }
+
+.desplegable {
+  list-style: circle inside;
+  color: #412f78;
+  font-style: normal;
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  letter-spacing: 2px;
+  line-height: 20px;
+  word-spacing: 2px;
+  flex-grow: 3;
+  width: 500px;
+  padding: 30px; }
+
+.carousel-item {
+  transition: interval 7200s; }
+
+/* ************************************************************************************ */
+/*                         Aplicando estilos por etiquetas   "main Index"                   */
+/* ************************************************************************************ */
+.mapa {
+  width: 450px;
+  height: 400px;
+  float: left;
+  border: inset 20px #946246;
+  padding: 50px; }
+
+.desplegable2 {
+  list-style: circle inside;
+  color: #412f78;
+  font-style: normal;
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  letter-spacing: 2px;
+  line-height: 20px;
+  word-spacing: 2px;
+  flex-grow: 3;
+  width: 300px;
+  padding: 30px; }
+
+footer {
+  display: inline-block;
+  padding: 20px;
+  width: 1220px;
+  background-image: linear-gradient(#D1FDD7, #257315); }
+
+h4 {
+  color: #1d0c7a;
+  font-style: normal;
+  font-family: Garamond, serif;
+  font-size: 20px;
+  text-align: left;
+  letter-spacing: 5px;
+  line-height: 20px;
+  word-spacing: 5px; }
+
+.fin {
+  width: 380px;
+  height: 90px;
+  float: left;
+  padding: 20px;
+  text-align: center;
+  padding-top: 20px;
+  letter-spacing: 2px; }
+
+.redSocial {
+  display: inline-block;
+  list-style: none;
+  width: 700px;
+  height: 120px;
+  float: right;
+  padding: 20px;
+  padding-right: 50px;
+  letter-spacing: 2px;
+  order: 3; }
+
+.red1 {
+  display: inline-block;
+  float: right;
+  width: 160px;
+  height: 50px;
+  margin: 5px, 2px, 5px, 3px;
+  border: dashed 5px brown;
+  text-align: center;
+  padding-top: 20px; }
+
+.padre1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: space-between;
+  flex-basis: 1200px;
+  width: 1220px;
+  height: 8000px;
+  background-image: linear-gradient(#D1FDD7, #257315, #D1FDD7); }
+
+.plan {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: flex-end; }
+
+#graficos {
+  transform: skew(20deg); }
+
+.plan1, .plan2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 1100px;
+  padding: 30px;
+  margin-top: 50px; }
+
+.plan1 {
+  flex-direction: column; }
+
+.plan2 {
+  flex-direction: column;
+  flex-basis: 500px;
+  flex-shrink: 3; }
+
+.plan7, .plan8, .plan9, .plan10, .section_materia--geo, .section_videos--geo, .section_sabias--geo, .section_jugando--geo {
+  justify-items: center;
+  align-items: center;
+  border: 7px brown;
+  padding: 5px; }
+
+.padre1 {
+  height: 8000px;
+  display: grid;
+  grid-template-columns: 1100px;
+  grid-template-rows: 300px;
+  border: inset 2px brown; }
+
+.plan5 {
+  display: grid;
+  grid-template-columns: 400px 600px;
+  grid-template-rows: 300px; }
+
+.plan6 {
+  display: grid;
+  grid-template-columns: 1100px;
+  grid-column-gap: 20px;
+  grid-row-gap: 55px;
+  justify-content: center;
+  align-content: center;
+  margin: 22px;
+  grid-template-areas: "geo" "video" "sabias" "jugando" "comenta"; }
+
+.plan7 {
+  grid-area: geo;
+  border: double; }
+
+.plan8 {
+  grid-area: video;
+  border: groove; }
+
+.plan9 {
+  grid-area: sabias;
+  border: ridge; }
+
+.plan10 {
+  grid-area: jugando;
+  border: dotted; }
+
+.plan11 {
+  grid-area: comenta;
+  justify-items: stretch;
+  align-items: stretch;
+  border: dashed 7px brown;
+  padding: 5px; }
+
+.footer_mod--geo {
+  display: inline-block;
+  padding: 20px;
+  width: 1220px;
+  background-image: linear-gradient(#D1FDD7, #257315); }
+
+.main_largo--geo {
+  height: 8000px; }
+
+.main_mod--geo {
+  display: grid;
+  grid-template-columns: 1100px;
+  grid-template-rows: 300px;
+  border: inset 2px brown; }
+
+.plan5 {
+  display: grid;
+  grid-template-columns: 400px 600px;
+  grid-template-rows: 300px; }
+
+.section_mod--geo {
+  display: grid;
+  grid-template-columns: 1100px;
+  grid-column-gap: 20px;
+  grid-row-gap: 55px;
+  justify-content: center;
+  align-content: center;
+  margin: 22px;
+  grid-template-areas: "geo" "video" "sabias" "jugando" "comenta"; }
+
+.plan7, .plan8, .plan9, .plan10, .section_materia--geo, .section_videos--geo, .section_sabias--geo, .section_jugando--geo {
+  justify-items: center;
+  align-items: center;
+  border: 7px brown;
+  padding: 5px; }
+
+.section_materia--geo {
+  grid-area: geo;
+  border: double; }
+
+.section_videos--geo {
+  grid-area: video;
+  border: groove; }
+
+.section_sabias--geo {
+  grid-area: sabias;
+  border: ridge; }
+
+.section_jugando--geo {
+  grid-area: jugando;
+  border: dotted; }
+
+.section_comen--geo {
+  grid-area: comenta;
+  justify-items: stretch;
+  align-items: stretch;
+  border: dashed 7px brown;
+  padding: 5px; }
+
+.footer_mod--geo {
+  display: inline-block;
+  padding: 20px;
+  width: 1220px;
+  background-image: linear-gradient(#D1FDD7, #257315); }
+
+/* ************************************************************************************ */
+/*                      Aplicando estilos por etiquetas  "general"                      */
+/* ************************************************************************************ */
+* {
+  padding: 0px;
+  margin: 0px;
+  background-color: #D1FDD7; }
+
+img {
+  padding: 15px;
+  width: 350px;
+  height: 200px;
+  border: groove 2px; }
+
+video {
+  backface-visibility: center;
+  /* why do not run*/ }
+
+@media only screen and (max-width: 500px) {
+  .grafi1 {
+    display: grid;
+    background-color: #D9AE57;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "geo" "video" "sabias" "jugando" "comenta"; } }
+
+@media only screen and (max-width: 250px) {
+  .grafi1 {
+    display: grid;
+    background-color: #CFA14C;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "geo" "video" "sabias" "jugando" "comenta"; } }

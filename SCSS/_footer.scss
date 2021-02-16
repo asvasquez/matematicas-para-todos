@@ -1,0 +1,49 @@
+footer{
+	display: inline-block;
+	padding: 20px;
+	width: 1220px;
+	background-image: linear-gradient(#D1FDD7, #257315)
+}
+h4{
+	color: $color-AzulM;
+	font-style: normal;
+	font-family: $tipo-Fuente;
+	font-size: 20px;
+	text-align: left;
+	letter-spacing:5px;
+	line-height: 20px ;
+	word-spacing: 5px;
+}
+.fin{
+	width: 380px;
+	height: 90px;
+	float: left;
+	padding: 20px;
+	text-align: center;
+	padding-top: 20px;
+	letter-spacing:2px;
+}
+.redSocial{
+	display: inline-block;
+	list-style:none;
+	width: 700px;
+	height: 120px;
+	float: right;
+	padding: 20px;
+	padding-right: 50px;
+	letter-spacing:2px;
+	order: 3;
+	
+}
+.red1{
+	display: inline-block;
+	float: right;
+	width: 160px;
+	height: 50px;
+	margin: 5px, 2px, 5px, 3px;
+	border: dashed 5px brown;
+	text-align: center;
+	padding-top: 20px;
+}
+
+

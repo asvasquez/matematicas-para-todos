@@ -1,0 +1,72 @@
+.main_largo--geo{
+	@include cambiarMain(8000px);
+}
+.main_mod--geo{
+	display: grid;
+	grid-template-columns: 1100px;
+	grid-template-rows: 300px; 
+	border:inset 2px brown;
+}
+
+.plan5{
+	display: grid;
+	grid-template-columns: 400px 600px;
+	grid-template-rows: 300px; 
+}
+.section_mod--geo{
+  display: grid;
+  grid-template-columns: 1100px;
+  grid-column-gap: 20px;
+  grid-row-gap: 55px;
+  justify-content: center;
+  align-content: center;
+  margin: 22px;
+  grid-template-areas:  "geo"
+  						"video"
+  						"sabias"
+  						"jugando"
+  						"comenta"
+    
+}
+%fuentePlan{
+	justify-items:center;
+	align-items: center;
+	border: 7px brown;
+	padding: 5px;
+}
+.section_materia--geo{
+	grid-area:geo; 
+	@extend %fuentePlan;
+	border: double;
+}
+.section_videos--geo{
+	grid-area:video; 
+	@extend %fuentePlan;
+	border: groove;
+}
+.section_sabias--geo{
+	grid-area:sabias; 
+	@extend %fuentePlan;
+	border: ridge;
+}
+.section_jugando--geo{
+	grid-area:jugando; 
+	@extend %fuentePlan;
+	border: dotted;
+}
+.section_comen--geo{
+	grid-area:comenta; 
+	justify-items:stretch;
+	align-items: stretch;
+	border: dashed 7px brown;
+	padding: 5px;
+
+}
+
+.footer_mod--geo{
+	display: inline-block;
+	padding: 20px;
+	width: 1220px;
+	background-image: linear-gradient(#D1FDD7, #257315)
+}
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title > Matemáticas para Todos</title>
+
+
+</head>
+<body>
+	<header>
+		<table>
+			<tr><td>
+
+				<img src="logotipo.jpg">
+				<h1 id="matematicas">Matemáticas para Todos</h1>
+			</td>
+			<td>	
+				<div><ul>
+					<label>
+						<input type="search" name="buscar" placeholder="Busque aqui">
+						<input type="submit" value="Buscar">
+					</label>
+				</td>
+				<td>
+					<li><h2>Notificaciones</h2></li>
+					<li><h2>Contactanos</h2></li>
+				</ul>
+			</div>
+		</td></tr>
+	</table>
+</header>
+<hr>
+
+<main>
+
+	
+			<a href="Contacto.html"><img src="contacto.jpg"></a>
+			
+			<table>
+				<tr>
+					<td>
+						
+					</td>
+					<td>
+						
+					</td>
+					<td>
+						
+					</td>
+					<td>
+						
+					</td>
+					<td>
+						
+					</td>
+
+				</tr>
+
+		</table>
+
+	<br>
+
+
+</main>
+<hr>
+
+<footer>
+	<div>
+		<table>
+			<tr>
+				<th><h4>Información</h4></th>
+				<td><h4>¿Quienes somos?</h4></td>
+				<td></td>		
+				<td></td>
+				<td></td>
+				<td><a href="http://www.spotify.com"><img src="spotify.jpg"></a></td>
+				<td><a href="http://www.youtube.com"><img src="youtube.jpg"></a></td>
+				<td><a href="http://www.facebook.com"><img src="facebook.jpg"></a></td>
+				<td><a href="http://www.instagram.com"><img src="instagram.jpg"></a></td>
+			</tr>
+		</table>
+
+		
+	</div>
+</footer>
+
+</body>
+
+
+</html>

@@ -1,0 +1,105 @@
+header{
+	background: linear-gradient($color-verdePetro, $color-verdeAgua);
+	padding: 20px;
+	display: inline-block;
+	width: 1220px;
+	height: 280px;
+	
+}
+.padreP{
+	height: 8500px;
+}
+.ft{
+	width: 500px;
+	height: 270;
+	float: left;
+}	
+.anima{
+	background-image: url("multimedia/caos.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left;
+	display: grid;
+
+}
+.anima:hover{animation-name: efecto; 
+	animation-iteration-count: infinite;
+	animation-duration:5s;
+	position: relative;
+}
+	
+@keyframes efecto{
+
+	from{
+		transform: scale(1,2);
+		background-image: linear-gradient(to left top , green, brown);
+		border-radius: 225px;
+		opacity: 0.9;
+		transform: skewX(25deg);
+		transform: translate(300px);
+			}
+	20%{
+		transform: skewX(50deg);
+		transform: scale(1);
+		transition: rotate(25deg);
+		color: white; 
+	}	
+	75%{
+		transition: rotate(250deg);
+		transform: skewX(25deg);
+	}
+	to{
+		transform: scale(1);
+		
+	}
+}
+.fk{
+	width: 680px;
+	height: 80px;
+	padding: 20px;
+	float: left;
+	text-align: right;
+	position: relative;
+}
+.desplegableInicio{
+	list-style-type: square;
+	list-style-position: outside;
+	color:$color-Letra;
+	font-style: normal;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	text-align: left;
+	letter-spacing:2px;
+	line-height: 20px ;
+	word-spacing: 2px;
+	width: 680px;
+	height: 109px;
+	float: right;
+	padding: 20px;
+	position: relative;
+ 	}
+
+.uno {
+	list-style-type: none;
+	font-size: 0px;
+	.dos{
+		display: inline-block;
+		width: 18%;
+		height: 25%;
+		font-size: 18px;
+		position: right;
+		border: outset 5px #946246;}}
+.uno .tres{
+	position: absolute;
+	display: none;
+	li{
+	display: block;
+	border: solid 2px #946246 ;}}
+.uno li:hover .tres{
+	display: block;
+}
+
+
+h1{
+	color:#1CA330;
+}
