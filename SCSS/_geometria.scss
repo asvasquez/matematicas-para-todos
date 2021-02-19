@@ -1,18 +1,17 @@
+/* ************************************************************************************ */
+/*                      Aplicando estilos por etiquetas  "geometria"                      */
+/* ************************************************************************************ */ 
+
 .main_largo--geo{
-	@include cambiarMain(8000px);
+	@include cambiarMain(7800px);
 }
 .main_mod--geo{
 	display: grid;
-	grid-template-columns: 1100px;
+	grid-template-columns: 1220px;
 	grid-template-rows: 300px; 
 	border:inset 2px brown;
 }
 
-.plan5{
-	display: grid;
-	grid-template-columns: 400px 600px;
-	grid-template-rows: 300px; 
-}
 .section_mod--geo{
   display: grid;
   grid-template-columns: 1100px;
@@ -27,12 +26,6 @@
   						"jugando"
   						"comenta"
     
-}
-%fuentePlan{
-	justify-items:center;
-	align-items: center;
-	border: 7px brown;
-	padding: 5px;
 }
 .section_materia--geo{
 	grid-area:geo; 

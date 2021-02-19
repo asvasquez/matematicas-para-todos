@@ -1,13 +1,20 @@
 $color-Letra: #1F740D;
-$color-Fondo: #D1FDD7;
+$color-Fondo: #a2f2ad;
 $tamaño-Letra: 20px;
 $color-verdePetro: RGB(37, 115, 21);
 $color-verdeAgua: #D1FDD7;
 $color-AzulM:#1d0c7a;
 $tipo-Fuente:Garamond, serif;
 
-$carousel-transitionvariable: interval 7200s;
+
 
 @mixin cambiarMain($largo){
 	height: $largo;
+}
+
+%fuentePlan{
+	justify-items:center;
+	align-items: center;
+	border: 7px brown;
+	padding: 5px;
 }

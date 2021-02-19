@@ -1,9 +1,12 @@
+/* ************************************************************************************ */
+/*                      Aplicando estilos por etiquetas  "cuerpo"                      */
+/* ************************************************************************************ */ 
 
 main{
-	@include cambiarMain(1000px);
+	@include cambiarMain(8200px);
 	display: inline-block;
 	padding: 20px;
-	background-image: linear-gradient(#D1FDD7, #257315, #D1FDD7)
+	background-image: linear-gradient(#D1FDD7, #a2f2ad, #D1FDD7)
 	}
 a{
 	color:#8f0947;
@@ -36,11 +39,6 @@ h3{
 	margin: 20px;
 
 }
-.main_largo--frac{
-	@include cambiarMain(9000px);
-	width: 1300px;
-}
-
 .materia{
 	color:#8F1D3B;
 	font-style: normal;
@@ -63,7 +61,7 @@ h3{
 }
 
 .video{	
-	color:#8c8284;
+	color:#c77787;
 	font-style: normal;
 	font-family: 'Courrier New', serif;
 	font-size: 20px;
@@ -129,32 +127,4 @@ textarea:hover{
 	width: 500px;
 	padding: 30px;
 
-}
-
-.carousel-item{
-	 transition:$carousel-transitionvariable;
-	  }
-/* ************************************************************************************ */
-/*                         Aplicando estilos por etiquetas   "main Index"                   */
-/* ************************************************************************************ */ 
-.mapa{
-	width: 450px;
-	height: 400px;
-	float: left;
-	border: inset 20px #946246;
-	padding: 50px;
-}
-.desplegable2{
-	list-style: circle inside;
-	color:#412f78;
-	font-style: normal;
-	font-family: 'Century Gothic', sans-serif;
-	font-size: 20px;
-	text-align: left;
-	letter-spacing:2px;
-	line-height: 20px ;
-	word-spacing: 2px;
-	flex-grow: 3;
-	width: 300px;
-	padding: 30px;
 }

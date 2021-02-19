@@ -6,9 +6,6 @@ header{
 	height: 280px;
 	
 }
-.padreP{
-	height: 8500px;
-}
 .ft{
 	width: 500px;
 	height: 270;
@@ -102,4 +99,9 @@ header{
 
 h1{
 	color:#1CA330;
+}
+.plan5{
+	display: grid;
+	grid-template-columns: 400px 600px;
+	grid-template-rows: 300px; 
 }

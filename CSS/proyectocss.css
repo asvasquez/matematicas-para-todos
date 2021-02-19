@@ -1,12 +1,268 @@
+/* ************************************************************************************ */
+/*                      Aplicando estilos por etiquetas  "general"                      */
+/* ************************************************************************************ */
+* {
+  padding: 0px;
+  margin: 0px;
+  /* background-color: $color-Fondo;*/ }
+
+img {
+  padding: 15px;
+  width: 350px;
+  height: 200px;
+  border: groove 2px; }
+
+video {
+  backface-visibility: center; }
+
+/* ************************************************************************************ */
+/*                      Aplicando estilos por etiquetas  "importaciones"                      */
+/* ************************************************************************************ */
+.section_materia--gra, .section_videos--gra, .section_sabias--gra, .section_jugando--gra, .section_materia--geo, .section_videos--geo, .section_sabias--geo, .section_jugando--geo, .section_materia--fra, .section_videos--fra, .section_sabias--fra, .section_jugando--fra, .section_materia--alg, .section_videos--alg, .section_sabias--alg, .section_jugando--alg {
+  justify-items: center;
+  align-items: center;
+  border: 7px brown;
+  padding: 5px; }
+
+/* ************************************************************************************ */
+/*                      Aplicando estilos por etiquetas  "cuerpo"                      */
+/* ************************************************************************************ */
+main {
+  height: 8200px;
+  display: inline-block;
+  padding: 20px;
+  background-image: linear-gradient(#D1FDD7, #a2f2ad, #D1FDD7); }
+
+a {
+  color: #8f0947;
+  text-decoration: line-none; }
+
+h2 {
+  color: #1F740D;
+  text-transform: uppercase;
+  font-style: normal;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 5px;
+  line-height: 40px;
+  word-spacing: 5px;
+  justify-content: center; }
+
+h3 {
+  color: #c215b6;
+  text-decoration: underline;
+  font-style: normal;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  text-align: left;
+  letter-spacing: 5px;
+  line-height: 30px;
+  word-spacing: 5px;
+  margin: 20px; }
+
+.materia {
+  color: #8F1D3B;
+  font-style: normal;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 20px; }
+
+.sabias {
+  color: #74100D;
+  font-style: normal;
+  font-family: 'candara', sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 20px; }
+
+.video {
+  color: #c77787;
+  font-style: normal;
+  font-family: 'Courrier New', serif;
+  font-size: 20px;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 20px;
+  padding: 20px;
+  align-items: center; }
+
+.jugando {
+  color: #A11241;
+  font-style: normal;
+  font-family: "Comic Sans MS", sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 22px; }
+
+.arriba {
+  font-weight: bold;
+  font-style: normal;
+  font-family: impact, sans-serif;
+  font-size: 20px;
+  text-align: right;
+  letter-spacing: 1px;
+  line-height: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-content: end; }
+
+textarea {
+  font-size: 25px; }
+
+textarea:hover {
+  transform: rotate(180deg); }
+
+.boton:hover {
+  color: green;
+  transform: scale(2); }
+
+#algebra1 {
+  background-image: url("multimedia/numeros.jpg"), url("multimedia/numeros1");
+  background-size: contain;
+  flex-grow: 1; }
+
+.desplegable {
+  list-style: circle inside;
+  color: #412f78;
+  font-style: normal;
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  letter-spacing: 2px;
+  line-height: 20px;
+  word-spacing: 2px;
+  flex-grow: 3;
+  width: 500px;
+  padding: 30px; }
+
+/* ************************************************************************************ */
+/*                         Aplicando estilos por etiquetas   "main Index"                   */
+/* ************************************************************************************ */
+.cuerpoIndex {
+  height: 1500px; }
+
+.mapa {
+  width: 450px;
+  height: 400px;
+  float: left;
+  border: inset 20px #946246;
+  padding: 50px; }
+
+.desplegable2 {
+  list-style: circle inside;
+  color: #412f78;
+  font-style: normal;
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  letter-spacing: 2px;
+  line-height: 20px;
+  word-spacing: 2px;
+  flex-grow: 3;
+  width: 300px;
+  padding: 30px; }
+
+.padre1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: space-between;
+  flex-basis: 1200px;
+  width: 1220px;
+  height: 9000px;
+  background-image: linear-gradient(#D1FDD7, #257315, #D1FDD7); }
+
+/* ************************************************************************************ */
+/*                         Aplicando estilos por etiquetas   "main Index"                   */
+/* ************************************************************************************ */
+.main_largo--con {
+  height: 1500px;
+  width: 1300px; }
+
+/*.main_largo--geo{
+	@include cambiarMain(9000px);
+}
+.main_mod--geo{
+	display: grid;
+	grid-template-columns: 1220px;
+	grid-template-rows: 300px; 
+	border:inset 2px brown;
+}
+
+.plan5{
+	display: grid;
+	grid-template-columns: 400px 600px;
+	grid-template-rows: 300px; 
+}
+.section_mod--geo{
+  display: grid;
+  grid-template-columns: 1100px;
+  grid-column-gap: 20px;
+  grid-row-gap: 55px;
+  justify-content: center;
+  align-content: center;
+  margin: 22px;
+  grid-template-areas:  "geo"
+  						"video"
+  						"sabias"
+  						"jugando"
+  						"comenta"
+    
+}
+%fuentePlan{
+	justify-items:center;
+	align-items: center;
+	border: 7px brown;
+	padding: 5px;
+}
+.section_materia--geo{
+	grid-area:geo; 
+	@extend %fuentePlan;
+	border: double;
+}
+.section_videos--geo{
+	grid-area:video; 
+	@extend %fuentePlan;
+	border: groove;
+}
+.section_sabias--geo{
+	grid-area:sabias; 
+	@extend %fuentePlan;
+	border: ridge;
+}
+.section_jugando--geo{
+	grid-area:jugando; 
+	@extend %fuentePlan;
+	border: dotted;
+}
+.section_comen--geo{
+	grid-area:comenta; 
+	justify-items:stretch;
+	align-items: stretch;
+	border: dashed 7px brown;
+	padding: 5px;
+
+}
+
+.footer_mod--geo{
+	display: inline-block;
+	padding: 20px;
+	width: 1220px;
+	background-image: linear-gradient(#D1FDD7, #257315)
+}*/
 header {
   background: linear-gradient(RGB(37, 115, 21), #D1FDD7);
   padding: 20px;
   display: inline-block;
   width: 1220px;
   height: 280px; }
-
-.padreP {
-  height: 8500px; }
 
 .ft {
   width: 500px;
@@ -94,156 +350,19 @@ header {
 h1 {
   color: #1CA330; }
 
-main {
-  height: 1000px;
-  display: inline-block;
-  padding: 20px;
-  background-image: linear-gradient(#D1FDD7, #257315, #D1FDD7); }
-
-a {
-  color: #8f0947;
-  text-decoration: line-none; }
-
-h2 {
-  color: #1F740D;
-  text-transform: uppercase;
-  font-style: normal;
-  font-family: 'Playfair Display', serif;
-  font-size: 40px;
-  text-align: center;
-  letter-spacing: 5px;
-  line-height: 40px;
-  word-spacing: 5px;
-  justify-content: center; }
-
-h3 {
-  color: #c215b6;
-  text-decoration: underline;
-  font-style: normal;
-  font-family: 'Playfair Display', serif;
-  font-size: 30px;
-  text-align: left;
-  letter-spacing: 5px;
-  line-height: 30px;
-  word-spacing: 5px;
-  margin: 20px; }
-
-.main_largo--frac {
-  height: 9000px;
-  width: 1300px; }
-
-.materia {
-  color: #8F1D3B;
-  font-style: normal;
-  font-family: 'Playfair Display', serif;
-  font-size: 20px;
-  text-align: justify;
-  letter-spacing: 1px;
-  line-height: 20px; }
-
-.sabias {
-  color: #74100D;
-  font-style: normal;
-  font-family: 'candara', sans-serif;
-  font-size: 20px;
-  text-align: justify;
-  letter-spacing: 1px;
-  line-height: 20px; }
-
-.video {
-  color: #8c8284;
-  font-style: normal;
-  font-family: 'Courrier New', serif;
-  font-size: 20px;
-  text-align: justify;
-  letter-spacing: 1px;
-  line-height: 20px;
-  padding: 20px;
-  align-items: center; }
-
-.jugando {
-  color: #A11241;
-  font-style: normal;
-  font-family: "Comic Sans MS", sans-serif;
-  font-size: 20px;
-  text-align: justify;
-  letter-spacing: 1px;
-  line-height: 22px; }
-
-.arriba {
-  font-weight: bold;
-  font-style: normal;
-  font-family: impact, sans-serif;
-  font-size: 20px;
-  text-align: right;
-  letter-spacing: 1px;
-  line-height: 15px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  align-content: end; }
-
-textarea {
-  font-size: 25px; }
-
-textarea:hover {
-  transform: rotate(180deg); }
-
-.boton:hover {
-  color: green;
-  transform: scale(2); }
-
-#algebra1 {
-  background-image: url("multimedia/numeros.jpg"), url("multimedia/numeros1");
-  background-size: contain;
-  flex-grow: 1; }
-
-.desplegable {
-  list-style: circle inside;
-  color: #412f78;
-  font-style: normal;
-  font-family: 'Century Gothic', sans-serif;
-  font-size: 20px;
-  text-align: left;
-  letter-spacing: 2px;
-  line-height: 20px;
-  word-spacing: 2px;
-  flex-grow: 3;
-  width: 500px;
-  padding: 30px; }
-
-.carousel-item {
-  transition: interval 7200s; }
+.plan5 {
+  display: grid;
+  grid-template-columns: 400px 600px;
+  grid-template-rows: 300px; }
 
 /* ************************************************************************************ */
-/*                         Aplicando estilos por etiquetas   "main Index"                   */
+/*                      Aplicando estilos por etiquetas  "footer"                      */
 /* ************************************************************************************ */
-.mapa {
-  width: 450px;
-  height: 400px;
-  float: left;
-  border: inset 20px #946246;
-  padding: 50px; }
-
-.desplegable2 {
-  list-style: circle inside;
-  color: #412f78;
-  font-style: normal;
-  font-family: 'Century Gothic', sans-serif;
-  font-size: 20px;
-  text-align: left;
-  letter-spacing: 2px;
-  line-height: 20px;
-  word-spacing: 2px;
-  flex-grow: 3;
-  width: 300px;
-  padding: 30px; }
-
 footer {
   display: inline-block;
   padding: 20px;
   width: 1220px;
-  background-image: linear-gradient(#D1FDD7, #257315); }
+  background-color: #a2f2ad; }
 
 h4 {
   color: #1d0c7a;
@@ -285,61 +404,19 @@ h4 {
   text-align: center;
   padding-top: 20px; }
 
-.padre1 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-content: space-between;
-  flex-basis: 1200px;
-  width: 1220px;
-  height: 8000px;
-  background-image: linear-gradient(#D1FDD7, #257315, #D1FDD7); }
+/* ************************************************************************************ */
+/*                      Aplicando estilos por etiquetas  "graficos"                      */
+/* ************************************************************************************ */
+.main_largo--gra {
+  height: 8200px; }
 
-.plan {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-start;
-  align-items: flex-end; }
-
-#graficos {
-  transform: skew(20deg); }
-
-.plan1, .plan2 {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: 1100px;
-  padding: 30px;
-  margin-top: 50px; }
-
-.plan1 {
-  flex-direction: column; }
-
-.plan2 {
-  flex-direction: column;
-  flex-basis: 500px;
-  flex-shrink: 3; }
-
-.plan7, .plan8, .plan9, .plan10, .section_materia--geo, .section_videos--geo, .section_sabias--geo, .section_jugando--geo {
-  justify-items: center;
-  align-items: center;
-  border: 7px brown;
-  padding: 5px; }
-
-.padre1 {
-  height: 8000px;
+.main_mod--gra {
   display: grid;
-  grid-template-columns: 1100px;
+  grid-template-columns: 1220px;
   grid-template-rows: 300px;
   border: inset 2px brown; }
 
-.plan5 {
-  display: grid;
-  grid-template-columns: 400px 600px;
-  grid-template-rows: 300px; }
-
-.plan6 {
+.section_mod--gra {
   display: grid;
   grid-template-columns: 1100px;
   grid-column-gap: 20px;
@@ -349,48 +426,46 @@ h4 {
   margin: 22px;
   grid-template-areas: "geo" "video" "sabias" "jugando" "comenta"; }
 
-.plan7 {
+.section_materia--gra {
   grid-area: geo;
   border: double; }
 
-.plan8 {
+.section_videos--gra {
   grid-area: video;
   border: groove; }
 
-.plan9 {
+.section_sabias--gra {
   grid-area: sabias;
   border: ridge; }
 
-.plan10 {
+.section_jugando--gra {
   grid-area: jugando;
   border: dotted; }
 
-.plan11 {
+.section_comen--gra {
   grid-area: comenta;
   justify-items: stretch;
   align-items: stretch;
   border: dashed 7px brown;
   padding: 5px; }
 
-.footer_mod--geo {
+.footer_mod--gra {
   display: inline-block;
   padding: 20px;
   width: 1220px;
   background-image: linear-gradient(#D1FDD7, #257315); }
 
+/* ************************************************************************************ */
+/*                      Aplicando estilos por etiquetas  "geometria"                      */
+/* ************************************************************************************ */
 .main_largo--geo {
-  height: 8000px; }
+  height: 7800px; }
 
 .main_mod--geo {
   display: grid;
-  grid-template-columns: 1100px;
+  grid-template-columns: 1220px;
   grid-template-rows: 300px;
   border: inset 2px brown; }
-
-.plan5 {
-  display: grid;
-  grid-template-columns: 400px 600px;
-  grid-template-rows: 300px; }
 
 .section_mod--geo {
   display: grid;
@@ -401,12 +476,6 @@ h4 {
   align-content: center;
   margin: 22px;
   grid-template-areas: "geo" "video" "sabias" "jugando" "comenta"; }
-
-.plan7, .plan8, .plan9, .plan10, .section_materia--geo, .section_videos--geo, .section_sabias--geo, .section_jugando--geo {
-  justify-items: center;
-  align-items: center;
-  border: 7px brown;
-  padding: 5px; }
 
 .section_materia--geo {
   grid-area: geo;
@@ -438,24 +507,114 @@ h4 {
   background-image: linear-gradient(#D1FDD7, #257315); }
 
 /* ************************************************************************************ */
-/*                      Aplicando estilos por etiquetas  "general"                      */
+/*                      Aplicando estilos por etiquetas  "fracciones"                      */
 /* ************************************************************************************ */
-* {
-  padding: 0px;
-  margin: 0px;
-  background-color: #D1FDD7; }
+.main_largo--fra {
+  height: 9500px;
+  width: 1300px; }
 
-img {
-  padding: 15px;
-  width: 350px;
-  height: 200px;
-  border: groove 2px; }
+.main_mod--fra {
+  display: grid;
+  grid-template-columns: 1220px;
+  grid-template-rows: 300px;
+  border: inset 2px brown; }
 
-video {
-  backface-visibility: center;
-  /* why do not run*/ }
+.section_mod--fra {
+  display: grid;
+  grid-template-columns: 1100px;
+  grid-column-gap: 20px;
+  grid-row-gap: 55px;
+  justify-content: center;
+  align-content: center;
+  margin: 22px;
+  grid-template-areas: "geo" "video" "sabias" "jugando" "comenta"; }
 
+.section_materia--fra {
+  grid-area: geo;
+  border: double; }
+
+.section_videos--fra {
+  grid-area: video;
+  border: groove; }
+
+.section_sabias--fra {
+  grid-area: sabias;
+  border: ridge; }
+
+.section_jugando--fra {
+  grid-area: jugando;
+  border: dotted; }
+
+.section_comen--fra {
+  grid-area: comenta;
+  justify-items: stretch;
+  align-items: stretch;
+  border: dashed 7px brown;
+  padding: 5px; }
+
+.footer_mod--fra {
+  display: inline-block;
+  padding: 20px;
+  width: 1220px;
+  background-image: linear-gradient(#D1FDD7, #257315); }
+
+/* ************************************************************************************ */
+/*                      Aplicando estilos por etiquetas  "algebra"                      */
+/* ************************************************************************************ */
+.main_largo--alg {
+  height: 7800px; }
+
+.main_mod--alg {
+  display: grid;
+  grid-template-columns: 1220px;
+  grid-template-rows: 300px;
+  border: inset 2px brown; }
+
+.section_mod--alg {
+  display: grid;
+  grid-template-columns: 1100px;
+  grid-column-gap: 20px;
+  grid-row-gap: 55px;
+  justify-content: center;
+  align-content: center;
+  margin: 22px;
+  grid-template-areas: "geo" "video" "sabias" "jugando" "comenta"; }
+
+.section_materia--alg {
+  grid-area: geo;
+  border: double; }
+
+.section_videos--alg {
+  grid-area: video;
+  border: groove; }
+
+.section_sabias--alg {
+  grid-area: sabias;
+  border: ridge; }
+
+.section_jugando--alg {
+  grid-area: jugando;
+  border: dotted; }
+
+.section_comen--alg {
+  grid-area: comenta;
+  justify-items: stretch;
+  align-items: stretch;
+  border: dashed 7px brown;
+  padding: 5px; }
+
+.footer_mod--alg {
+  display: inline-block;
+  padding: 20px;
+  width: 1220px;
+  background-image: linear-gradient(#D1FDD7, #257315); }
+
+/* ************************************************************************************ */
+/*                      Aplicando estilos por etiquetas                                 */
+/* ************************************************************************************ */
 @media only screen and (max-width: 500px) {
+  .ft {
+    display: grid; }
   .grafi1 {
     display: grid;
     background-color: #D9AE57;

@@ -1,17 +1,17 @@
 /* ************************************************************************************ */
-/*                      Aplicando estilos por etiquetas  "graficos"                      */
+/*                      Aplicando estilos por etiquetas  "algebra"                      */
 /* ************************************************************************************ */ 
-.main_largo--gra{
-	@include cambiarMain(8200px);
+.main_largo--alg{
+	@include cambiarMain(7800px);
 }
-.main_mod--gra{
+.main_mod--alg{
 	display: grid;
 	grid-template-columns: 1220px;
 	grid-template-rows: 300px; 
 	border:inset 2px brown;
 }
 
-.section_mod--gra{
+.section_mod--alg{
   display: grid;
   grid-template-columns: 1100px;
   grid-column-gap: 20px;
@@ -26,27 +26,27 @@
   						"comenta"
     
 }
-.section_materia--gra{
+.section_materia--alg{
 	grid-area:geo; 
 	@extend %fuentePlan;
 	border: double;
 }
-.section_videos--gra{
+.section_videos--alg{
 	grid-area:video; 
 	@extend %fuentePlan;
 	border: groove;
 }
-.section_sabias--gra{
+.section_sabias--alg{
 	grid-area:sabias; 
 	@extend %fuentePlan;
 	border: ridge;
 }
-.section_jugando--gra{
+.section_jugando--alg{
 	grid-area:jugando; 
 	@extend %fuentePlan;
 	border: dotted;
 }
-.section_comen--gra{
+.section_comen--alg{
 	grid-area:comenta; 
 	justify-items:stretch;
 	align-items: stretch;
@@ -55,7 +55,7 @@
 
 }
 
-.footer_mod--gra{
+.footer_mod--alg{
 	display: inline-block;
 	padding: 20px;
 	width: 1220px;

@@ -1,17 +1,18 @@
 /* ************************************************************************************ */
-/*                      Aplicando estilos por etiquetas  "graficos"                      */
+/*                      Aplicando estilos por etiquetas  "fracciones"                      */
 /* ************************************************************************************ */ 
-.main_largo--gra{
-	@include cambiarMain(8200px);
+.main_largo--fra{
+	@include cambiarMain(9500px);
+	width: 1300px;
 }
-.main_mod--gra{
+.main_mod--fra{
 	display: grid;
 	grid-template-columns: 1220px;
 	grid-template-rows: 300px; 
 	border:inset 2px brown;
 }
 
-.section_mod--gra{
+.section_mod--fra{
   display: grid;
   grid-template-columns: 1100px;
   grid-column-gap: 20px;
@@ -26,27 +27,27 @@
   						"comenta"
     
 }
-.section_materia--gra{
+.section_materia--fra{
 	grid-area:geo; 
 	@extend %fuentePlan;
 	border: double;
 }
-.section_videos--gra{
+.section_videos--fra{
 	grid-area:video; 
 	@extend %fuentePlan;
 	border: groove;
 }
-.section_sabias--gra{
+.section_sabias--fra{
 	grid-area:sabias; 
 	@extend %fuentePlan;
 	border: ridge;
 }
-.section_jugando--gra{
+.section_jugando--fra{
 	grid-area:jugando; 
 	@extend %fuentePlan;
 	border: dotted;
 }
-.section_comen--gra{
+.section_comen--fra{
 	grid-area:comenta; 
 	justify-items:stretch;
 	align-items: stretch;
@@ -55,7 +56,7 @@
 
 }
 
-.footer_mod--gra{
+.footer_mod--fra{
 	display: inline-block;
 	padding: 20px;
 	width: 1220px;
