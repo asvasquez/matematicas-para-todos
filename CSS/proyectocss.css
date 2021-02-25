@@ -3,8 +3,7 @@
 /* ************************************************************************************ */
 * {
   padding: 0px;
-  margin: 0px;
-  /* background-color: $color-Fondo;*/ }
+  margin: 0px; }
 
 img {
   padding: 15px;
@@ -18,7 +17,7 @@ video {
 /* ************************************************************************************ */
 /*                      Aplicando estilos por etiquetas  "importaciones"                      */
 /* ************************************************************************************ */
-.section_materia--gra, .section_videos--gra, .section_sabias--gra, .section_jugando--gra, .section_materia--geo, .section_videos--geo, .section_sabias--geo, .section_jugando--geo, .section_materia--fra, .section_videos--fra, .section_sabias--fra, .section_jugando--fra, .section_materia--alg, .section_videos--alg, .section_sabias--alg, .section_jugando--alg {
+.section_materia--gra, .section_videos--gra, .section_sabias--gra, .section_jugando--gra, .section_materia--geo, .section_videos--geo, .section_sabias--geo, .section_jugando--geo, .section_materia--frac, .section_videos--frac, .section_sabias--frac, .section_jugando--frac, .section_materia--alg, .section_videos--alg, .section_sabias--alg, .section_jugando--alg {
   justify-items: center;
   align-items: center;
   border: 7px brown;
@@ -28,7 +27,7 @@ video {
 /*                      Aplicando estilos por etiquetas  "cuerpo"                      */
 /* ************************************************************************************ */
 main {
-  height: 8200px;
+  height: 1100px;
   display: inline-block;
   padding: 20px;
   background-image: linear-gradient(#D1FDD7, #a2f2ad, #D1FDD7); }
@@ -145,10 +144,17 @@ textarea:hover {
 /*                         Aplicando estilos por etiquetas   "main Index"                   */
 /* ************************************************************************************ */
 .cuerpoIndex {
-  height: 1500px; }
+  height: 1000px;
+  display: flex;
+  flex-direction: inline-block;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-between;
+  flex-basis: 1200px;
+  width: 1220px; }
 
 .mapa {
-  width: 450px;
+  width: 430px;
   height: 400px;
   float: left;
   border: inset 20px #946246;
@@ -168,95 +174,13 @@ textarea:hover {
   width: 300px;
   padding: 30px; }
 
-.padre1 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-content: space-between;
-  flex-basis: 1200px;
-  width: 1220px;
-  height: 9000px;
-  background-image: linear-gradient(#D1FDD7, #257315, #D1FDD7); }
-
 /* ************************************************************************************ */
 /*                         Aplicando estilos por etiquetas   "main Index"                   */
 /* ************************************************************************************ */
 .main_largo--con {
-  height: 1500px;
-  width: 1300px; }
+  height: 1000px;
+  width: 1220px; }
 
-/*.main_largo--geo{
-	@include cambiarMain(9000px);
-}
-.main_mod--geo{
-	display: grid;
-	grid-template-columns: 1220px;
-	grid-template-rows: 300px; 
-	border:inset 2px brown;
-}
-
-.plan5{
-	display: grid;
-	grid-template-columns: 400px 600px;
-	grid-template-rows: 300px; 
-}
-.section_mod--geo{
-  display: grid;
-  grid-template-columns: 1100px;
-  grid-column-gap: 20px;
-  grid-row-gap: 55px;
-  justify-content: center;
-  align-content: center;
-  margin: 22px;
-  grid-template-areas:  "geo"
-  						"video"
-  						"sabias"
-  						"jugando"
-  						"comenta"
-    
-}
-%fuentePlan{
-	justify-items:center;
-	align-items: center;
-	border: 7px brown;
-	padding: 5px;
-}
-.section_materia--geo{
-	grid-area:geo; 
-	@extend %fuentePlan;
-	border: double;
-}
-.section_videos--geo{
-	grid-area:video; 
-	@extend %fuentePlan;
-	border: groove;
-}
-.section_sabias--geo{
-	grid-area:sabias; 
-	@extend %fuentePlan;
-	border: ridge;
-}
-.section_jugando--geo{
-	grid-area:jugando; 
-	@extend %fuentePlan;
-	border: dotted;
-}
-.section_comen--geo{
-	grid-area:comenta; 
-	justify-items:stretch;
-	align-items: stretch;
-	border: dashed 7px brown;
-	padding: 5px;
-
-}
-
-.footer_mod--geo{
-	display: inline-block;
-	padding: 20px;
-	width: 1220px;
-	background-image: linear-gradient(#D1FDD7, #257315)
-}*/
 header {
   background: linear-gradient(RGB(37, 115, 21), #D1FDD7);
   padding: 20px;
@@ -267,7 +191,8 @@ header {
 .ft {
   width: 500px;
   height: 270;
-  float: left; }
+  float: left;
+  text-decoration-color: brown; }
 
 .anima {
   background-image: url("multimedia/caos.jpg");
@@ -509,17 +434,16 @@ h4 {
 /* ************************************************************************************ */
 /*                      Aplicando estilos por etiquetas  "fracciones"                      */
 /* ************************************************************************************ */
-.main_largo--fra {
-  height: 9500px;
-  width: 1300px; }
+.main_largo--frac {
+  height: 13200px; }
 
-.main_mod--fra {
+.main_mod--frac {
   display: grid;
   grid-template-columns: 1220px;
   grid-template-rows: 300px;
   border: inset 2px brown; }
 
-.section_mod--fra {
+.section_mod--frac {
   display: grid;
   grid-template-columns: 1100px;
   grid-column-gap: 20px;
@@ -529,30 +453,30 @@ h4 {
   margin: 22px;
   grid-template-areas: "geo" "video" "sabias" "jugando" "comenta"; }
 
-.section_materia--fra {
+.section_materia--frac {
   grid-area: geo;
   border: double; }
 
-.section_videos--fra {
+.section_videos--frac {
   grid-area: video;
   border: groove; }
 
-.section_sabias--fra {
+.section_sabias--frac {
   grid-area: sabias;
   border: ridge; }
 
-.section_jugando--fra {
+.section_jugando--frac {
   grid-area: jugando;
   border: dotted; }
 
-.section_comen--fra {
+.section_comen--frac {
   grid-area: comenta;
   justify-items: stretch;
   align-items: stretch;
   border: dashed 7px brown;
   padding: 5px; }
 
-.footer_mod--fra {
+.footer_mod--frac {
   display: inline-block;
   padding: 20px;
   width: 1220px;

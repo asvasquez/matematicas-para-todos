@@ -3,14 +3,23 @@
 /*                         Aplicando estilos por etiquetas   "main Index"                   */
 /* ************************************************************************************ */ 
 .cuerpoIndex{
-	@include cambiarMain(1500px);
+	@include cambiarMain(1000px);
+	display: flex;
+	flex-direction: inline-block;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: space-between;
+	flex-basis: 1200px;
+	width: 1220px;
+	
 }
 .mapa{
-	width: 450px;
+	width: 430px;
 	height: 400px;
 	float: left;
 	border: inset 20px #946246;
 	padding: 50px;
+	
 }
 .desplegable2{
 	list-style: circle inside;
@@ -26,95 +35,13 @@
 	width: 300px;
 	padding: 30px;
 }
-.padre1{
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-content: space-between;
-	flex-basis: 1200px;
-	width: 1220px;
-	height: 9000px;
-	background-image: linear-gradient(#D1FDD7, #257315, #D1FDD7)
-}
+
 /* ************************************************************************************ */
 /*                         Aplicando estilos por etiquetas   "main Index"                   */
 /* ************************************************************************************ */ 
 
 .main_largo--con{
-	@include cambiarMain(1500px);
-	width: 1300px;
-}
-
-/*.main_largo--geo{
-	@include cambiarMain(9000px);
-}
-.main_mod--geo{
-	display: grid;
-	grid-template-columns: 1220px;
-	grid-template-rows: 300px; 
-	border:inset 2px brown;
-}
-
-.plan5{
-	display: grid;
-	grid-template-columns: 400px 600px;
-	grid-template-rows: 300px; 
-}
-.section_mod--geo{
-  display: grid;
-  grid-template-columns: 1100px;
-  grid-column-gap: 20px;
-  grid-row-gap: 55px;
-  justify-content: center;
-  align-content: center;
-  margin: 22px;
-  grid-template-areas:  "geo"
-  						"video"
-  						"sabias"
-  						"jugando"
-  						"comenta"
-    
-}
-%fuentePlan{
-	justify-items:center;
-	align-items: center;
-	border: 7px brown;
-	padding: 5px;
-}
-.section_materia--geo{
-	grid-area:geo; 
-	@extend %fuentePlan;
-	border: double;
-}
-.section_videos--geo{
-	grid-area:video; 
-	@extend %fuentePlan;
-	border: groove;
-}
-.section_sabias--geo{
-	grid-area:sabias; 
-	@extend %fuentePlan;
-	border: ridge;
-}
-.section_jugando--geo{
-	grid-area:jugando; 
-	@extend %fuentePlan;
-	border: dotted;
-}
-.section_comen--geo{
-	grid-area:comenta; 
-	justify-items:stretch;
-	align-items: stretch;
-	border: dashed 7px brown;
-	padding: 5px;
-
-}
-
-.footer_mod--geo{
-	display: inline-block;
-	padding: 20px;
+	@include cambiarMain(1000px);
 	width: 1220px;
-	background-image: linear-gradient(#D1FDD7, #257315)
-}*/
+}
 
