@@ -99,6 +99,7 @@ h3 {
   line-height: 22px; }
 
 .arriba {
+  float: right;
   font-weight: bold;
   font-style: normal;
   font-family: impact, sans-serif;
@@ -226,10 +227,21 @@ header {
   to {
     transform: scale(1); } }
 
+.h1 {
+  display: inline-block;
+  font-size: 30px;
+  font-family: "engravers mt";
+  font-style: italic;
+  color: #60186B;
+  width: 520px;
+  height: 160px;
+  padding: 20px;
+  text-align: right; }
+
 .fk {
   width: 680px;
-  height: 80px;
-  padding: 20px;
+  height: 20px;
+  padding: 10px;
   float: left;
   text-align: right;
   position: relative; }
@@ -245,7 +257,7 @@ header {
   letter-spacing: 2px;
   line-height: 20px;
   word-spacing: 2px;
-  width: 680px;
+  width: 1200px;
   height: 109px;
   float: right;
   padding: 20px;
@@ -256,6 +268,7 @@ header {
   font-size: 0px; }
   .uno .dos {
     display: inline-block;
+    background-color: #C1CCED;
     width: 18%;
     height: 25%;
     font-size: 18px;
@@ -270,10 +283,8 @@ header {
     border: solid 2px #946246; }
 
 .uno li:hover .tres {
-  display: block; }
-
-h1 {
-  color: #1CA330; }
+  display: block;
+  background-color: #EDDAA8; }
 
 .plan5 {
   display: grid;
