@@ -11,9 +11,6 @@ img {
   height: 200px;
   border: groove 2px; }
 
-video {
-  backface-visibility: center; }
-
 /* ************************************************************************************ */
 /*                      Aplicando estilos por etiquetas  "importaciones"                      */
 /* ************************************************************************************ */
@@ -344,7 +341,7 @@ h4 {
 /*                      Aplicando estilos por etiquetas  "graficos"                      */
 /* ************************************************************************************ */
 .main_largo--gra {
-  height: 8200px; }
+  height: 9800px; }
 
 .main_mod--gra {
   display: grid;
@@ -395,7 +392,7 @@ h4 {
 /*                      Aplicando estilos por etiquetas  "geometria"                      */
 /* ************************************************************************************ */
 .main_largo--geo {
-  height: 7800px; }
+  height: 10150px; }
 
 .main_mod--geo {
   display: grid;
@@ -446,7 +443,7 @@ h4 {
 /*                      Aplicando estilos por etiquetas  "fracciones"                      */
 /* ************************************************************************************ */
 .main_largo--frac {
-  height: 13200px; }
+  height: 9900px; }
 
 .main_mod--frac {
   display: grid;
@@ -497,7 +494,7 @@ h4 {
 /*                      Aplicando estilos por etiquetas  "algebra"                      */
 /* ************************************************************************************ */
 .main_largo--alg {
-  height: 7800px; }
+  height: 8900px; }
 
 .main_mod--alg {
   display: grid;
@@ -544,10 +541,13 @@ h4 {
   width: 1220px;
   background-image: linear-gradient(#D1FDD7, #257315); }
 
+table {
+  border: solid 2px; }
+
 /* ************************************************************************************ */
 /*                      Aplicando estilos por etiquetas                                 */
 /* ************************************************************************************ */
-@media only screen and (max-width: 500px) {
+@media (max-width: 768px) {
   .ft {
     display: grid; }
   .grafi1 {
@@ -557,10 +557,29 @@ h4 {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "geo" "video" "sabias" "jugando" "comenta"; } }
 
-@media only screen and (max-width: 250px) {
+@media (max-width: 480px) {
   .grafi1 {
     display: grid;
     background-color: #CFA14C;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "geo" "video" "sabias" "jugando" "comenta"; } }
+
+@media (max-width: 320px) {
+  .grafi1 {
+    display: grid;
+    background-color: #CFA14C;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "geo" "video" "sabias" "jugando" "comenta"; } }
+
+h5 {
+  line-height: 3.0;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Akaya Telivigala";
+  color: #5D50F5; }
+
+.cuadro {
+  text-align: center;
+  width: 1200px; }

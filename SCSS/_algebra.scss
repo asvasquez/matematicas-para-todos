@@ -2,7 +2,7 @@
 /*                      Aplicando estilos por etiquetas  "algebra"                      */
 /* ************************************************************************************ */ 
 .main_largo--alg{
-	@include cambiarMain(7800px);
+	@include cambiarMain(8900px);
 }
 .main_mod--alg{
 	display: grid;
@@ -62,3 +62,6 @@
 	background-image: linear-gradient(#D1FDD7, #257315)
 }
 
+table{
+	border:solid 2px;
+}

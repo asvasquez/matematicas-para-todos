@@ -2,7 +2,7 @@
 /*                      Aplicando estilos por etiquetas  "graficos"                      */
 /* ************************************************************************************ */ 
 .main_largo--gra{
-	@include cambiarMain(8200px);
+	@include cambiarMain(9800px);
 }
 .main_mod--gra{
 	display: grid;

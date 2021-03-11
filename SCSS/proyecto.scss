@@ -13,10 +13,7 @@ img{
   border: groove 2px;
 }
 
-video{
-  backface-visibility: center;
-  
-}
+
 
 /* ************************************************************************************ */
 /*                      Aplicando estilos por etiquetas  "importaciones"                      */
@@ -37,7 +34,7 @@ video{
 /* ************************************************************************************ */ 
 
 
-@media only screen and (max-width: 500px) {
+@media (max-width: 768px) {
     .ft{ display: grid;
     }
     .grafi1 {
@@ -45,24 +42,55 @@ video{
     background-color: #D9AE57;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-	  grid-template-areas:    "geo"
-  	             						"video"
-  							            "sabias"
-  							            "jugando"
-  							            "comenta"
+	  grid-template-areas:    
+    "geo"
+  	"video"
+    "sabias"
+    "jugando"
+    "comenta"
      }
 }
 
-@media only screen and (max-width: 250px) {
+@media (max-width: 480px) {
     .grafi1 {
     display: grid;
     background-color: #CFA14C;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-	  grid-template-areas:    "geo"
-    						          	"video"
-    						          	"sabias"
-    						          	"jugando"
-    					           		"comenta"
+	  grid-template-areas:    
+    "geo"
+    "video"
+    "sabias"
+    "jugando"
+    "comenta"
      }
+}
+
+@media (max-width: 320px) {
+    .grafi1 {
+    display: grid;
+    background-color: #CFA14C;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:   
+    "geo"
+    "video"
+    "sabias"
+    "jugando"
+    "comenta"
+     }
+}
+
+h5{
+  line-height: 3.0;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Akaya Telivigala";
+  color:#5D50F5;
+}
+
+.cuadro{
+  text-align: center;
+  width: 1200px;
+
 }
