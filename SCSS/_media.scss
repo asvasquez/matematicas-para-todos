@@ -1,0 +1,214 @@
+/* ************************************************************************************ */
+/*                      Aplicando estilos por etiquetas                                 */
+/* ************************************************************************************ */ 
+/* ********************************************************* */
+/*   		          	media 700	                         */
+/* ********************************************************* */ 
+
+
+@media (max-width: 770px) {
+%Med700{
+	justify-items:justify;
+	align-items: justify;
+	width: 685px;			}
+%MedClases{
+	justify-items:justify;
+	align-items: justify;
+	width: 585px;			}
+
+    header{
+      @extend %Med700;
+      height: 550px;	    }
+    .h1{
+      @extend %Med700;
+      font-size: 25px;	    }
+    .ft{
+      @extend %Med700;
+      display: grid;	    }
+    .fk{
+      @extend %Med700;
+      text-align: center;   }
+    .desplegableInicio {
+    	display: block;     }
+
+    .cuerpoIndex{
+    	@extend %Med700;      
+    	height: 8000px;	    }
+    .mapa{
+      @extend %Med700;
+      height: 400px;	    }
+    .video{
+    	@extend %MedClases;
+    }
+    .h3{
+    	@extend %MedClases;
+    }
+
+    .main_largo--alg{
+    	@extend %Med700;
+    	height: 10500px; 	
+	    .section_materia--alg{
+	    	@extend %MedClases;	    }
+		.section_video--alg{
+	    	@extend %MedClases;	    }
+		.section_sabias--alg{
+	    	@extend %MedClases;	    }
+		.section_jugando--alg{
+	    	@extend %MedClases;	    }
+		.section_comen--alg{
+	    	@extend %MedClases;	    }
+   		.footer_mod--alg{
+    		@extend %Med700;
+    		height: 400px;	    }}
+
+    .main_largo--geo{
+    	@extend %Med700;
+    	height: 11900px; 	
+	    .section_materia--geo{
+	    	@extend %MedClases;	    }
+		.section_video--geo{
+	    	@extend %MedClases;	    }
+		.section_sabias--geo{
+	    	@extend %MedClases;	    }
+		.section_jugando--geo{
+	    	@extend %MedClases;	    }
+		.section_comen--geo{
+	    	@extend %MedClases;	    }
+	    .footer_mod--geo{
+	    	@extend %Med700;
+	    	height: 400px;	    }  }  
+
+    .main_largo--gra{
+    	@extend %Med700;
+    	height: 11500px; 	
+    	.section_materia--gra{
+    	@extend %MedClases;	    }
+		.section_video--gra{
+    	@extend %MedClases;	    }
+		.section_sabias--gra{
+    	@extend %MedClases;	    }
+		.section_jugando--gra{
+    	@extend %MedClases;	    }
+		.section_comen--gra{
+    	@extend %MedClases;	    }
+	    .footer_mod--gra{
+	    	@extend %Med700;
+	    	height: 400px;	    }}
+
+    .main_largo--frac{
+    	@extend %Med700;
+    	height: 11700px; 	
+	    .section_materia--frac{
+	    	@extend %MedClases;	    }
+		.section_video--frac{
+	    	@extend %MedClases;	    }
+		.section_sabias--frac{
+	    	@extend %MedClases;	    }
+		.section_jugando--frac{
+	    	@extend %MedClases;	    }
+		.section_comen--frac{
+    		@extend %MedClases;	    }
+	    .footer_mod--frac{
+	    	@extend %MedClases;
+	    	height: 300px;	    }}
+
+    footer{
+
+   	  @extend %Med700;
+   	  height: 400px;	    }
+   	 .fin{
+   	 	@extend %Med700;
+   	 	height: 100px;	 	}
+	.redSocial{
+		@extend %Med700;
+		display: block;
+		list-style:none;
+		height: 250px;		}
+	.red1{
+	display: block;
+	border: dashed 5px brown;
+	text-align: center;		}
+
+ 
+}
+
+
+
+
+/* ********************************************************* */
+/*   		          	media 576	                         */
+/* ********************************************************* */ 
+
+
+@media (max-width: 576px) {
+    .grafi1 {
+    display: grid;
+    background-color: #CFA14C;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:   
+    "geo"
+    "video"
+    "sabias"
+    "jugando"
+    "comenta"
+     }
+    header{
+      width: 570px;
+      height: 500px;   }
+    .fk{
+      width: 570px;    }
+    .h1{
+      width: 570px;    }
+    .ft{
+      width: 570px;    }
+    main{
+      width: 570px;
+      height: 1200px;  }
+    .mapa{
+      width: 570px;    }
+    .fin{
+      width: 570;      }
+    .redsocial{
+
+      width: 570;      }
+    .redsocial ul{}
+}
+
+
+/* ********************************************************* */
+/*   		          	media 480	                         */
+/* ********************************************************* */ 
+
+@media (max-width: 480px) {
+    
+     header{
+      width: 450px;
+      height: 500px;
+    }
+     .fk{
+      width: 450px;
+    }
+    .h1{
+      width: 450px;
+    }
+    .ft{
+      width: 450px;
+    }
+      .mapa{
+      width: 450px;
+      
+    }
+    .grafi1 {
+    display: grid;
+    background-color: #CFA14C;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:    
+    "geo"
+    "video"
+    "sabias"
+    "jugando"
+    "comenta"
+     }
+}

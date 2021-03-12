@@ -547,17 +547,105 @@ table {
 /* ************************************************************************************ */
 /*                      Aplicando estilos por etiquetas                                 */
 /* ************************************************************************************ */
-@media (max-width: 768px) {
+/* ********************************************************* */
+/*   		          	media 700	                         */
+/* ********************************************************* */
+@media (max-width: 770px) {
+  header, .h1, .ft, .fk, .cuerpoIndex, .mapa, .main_largo--alg, .main_largo--alg .footer_mod--alg, .main_largo--geo, .main_largo--geo .footer_mod--geo, .main_largo--gra, .main_largo--gra .footer_mod--gra, .main_largo--frac, footer, .fin, .redSocial {
+    justify-items: justify;
+    align-items: justify;
+    width: 685px; }
+  .video, .h3, .main_largo--alg .section_materia--alg, .main_largo--alg .section_video--alg, .main_largo--alg .section_sabias--alg, .main_largo--alg .section_jugando--alg, .main_largo--alg .section_comen--alg, .main_largo--geo .section_materia--geo, .main_largo--geo .section_video--geo, .main_largo--geo .section_sabias--geo, .main_largo--geo .section_jugando--geo, .main_largo--geo .section_comen--geo, .main_largo--gra .section_materia--gra, .main_largo--gra .section_video--gra, .main_largo--gra .section_sabias--gra, .main_largo--gra .section_jugando--gra, .main_largo--gra .section_comen--gra, .main_largo--frac .section_materia--frac, .main_largo--frac .section_video--frac, .main_largo--frac .section_sabias--frac, .main_largo--frac .section_jugando--frac, .main_largo--frac .section_comen--frac, .main_largo--frac .footer_mod--frac {
+    justify-items: justify;
+    align-items: justify;
+    width: 585px; }
+  header {
+    height: 550px; }
+  .h1 {
+    font-size: 25px; }
   .ft {
     display: grid; }
+  .fk {
+    text-align: center; }
+  .desplegableInicio {
+    display: block; }
+  .cuerpoIndex {
+    height: 8000px; }
+  .mapa {
+    height: 400px; }
+  .main_largo--alg {
+    height: 10500px; }
+    .main_largo--alg .footer_mod--alg {
+      height: 400px; }
+  .main_largo--geo {
+    height: 11900px; }
+    .main_largo--geo .footer_mod--geo {
+      height: 400px; }
+  .main_largo--gra {
+    height: 11500px; }
+    .main_largo--gra .footer_mod--gra {
+      height: 400px; }
+  .main_largo--frac {
+    height: 11700px; }
+    .main_largo--frac .footer_mod--frac {
+      height: 300px; }
+  footer {
+    height: 400px; }
+  .fin {
+    height: 100px; }
+  .redSocial {
+    display: block;
+    list-style: none;
+    height: 250px; }
+  .red1 {
+    display: block;
+    border: dashed 5px brown;
+    text-align: center; } }
+
+/* ********************************************************* */
+/*   		          	media 576	                         */
+/* ********************************************************* */
+@media (max-width: 576px) {
   .grafi1 {
     display: grid;
-    background-color: #D9AE57;
+    background-color: #CFA14C;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: "geo" "video" "sabias" "jugando" "comenta"; } }
+    grid-template-areas: "geo" "video" "sabias" "jugando" "comenta"; }
+  header {
+    width: 570px;
+    height: 500px; }
+  .fk {
+    width: 570px; }
+  .h1 {
+    width: 570px; }
+  .ft {
+    width: 570px; }
+  main {
+    width: 570px;
+    height: 1200px; }
+  .mapa {
+    width: 570px; }
+  .fin {
+    width: 570; }
+  .redsocial {
+    width: 570; } }
 
+/* ********************************************************* */
+/*   		          	media 480	                         */
+/* ********************************************************* */
 @media (max-width: 480px) {
+  header {
+    width: 450px;
+    height: 500px; }
+  .fk {
+    width: 450px; }
+  .h1 {
+    width: 450px; }
+  .ft {
+    width: 450px; }
+  .mapa {
+    width: 450px; }
   .grafi1 {
     display: grid;
     background-color: #CFA14C;
@@ -565,14 +653,9 @@ table {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "geo" "video" "sabias" "jugando" "comenta"; } }
 
-@media (max-width: 320px) {
-  .grafi1 {
-    display: grid;
-    background-color: #CFA14C;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: "geo" "video" "sabias" "jugando" "comenta"; } }
-
+/* ************************************************************************************ */
+/*                      Aplicando estilos por etiquetas                                 */
+/* ************************************************************************************ */
 h5 {
   line-height: 3.0;
   text-align: center;

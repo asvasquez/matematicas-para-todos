@@ -28,58 +28,13 @@ img{
 @import "geometria";
 @import "fracciones";
 @import "algebra";
+@import "media";
 
 /* ************************************************************************************ */
 /*                      Aplicando estilos por etiquetas                                 */
 /* ************************************************************************************ */ 
 
 
-@media (max-width: 768px) {
-    .ft{ display: grid;
-    }
-    .grafi1 {
-    display: grid;
-    background-color: #D9AE57;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-	  grid-template-areas:    
-    "geo"
-  	"video"
-    "sabias"
-    "jugando"
-    "comenta"
-     }
-}
-
-@media (max-width: 480px) {
-    .grafi1 {
-    display: grid;
-    background-color: #CFA14C;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-	  grid-template-areas:    
-    "geo"
-    "video"
-    "sabias"
-    "jugando"
-    "comenta"
-     }
-}
-
-@media (max-width: 320px) {
-    .grafi1 {
-    display: grid;
-    background-color: #CFA14C;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas:   
-    "geo"
-    "video"
-    "sabias"
-    "jugando"
-    "comenta"
-     }
-}
 
 h5{
   line-height: 3.0;
