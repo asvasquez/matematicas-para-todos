@@ -550,108 +550,307 @@ table {
 /* ********************************************************* */
 /*   		          	media 700	                         */
 /* ********************************************************* */
-@media (max-width: 770px) {
-  header, .h1, .ft, .fk, .cuerpoIndex, .mapa, .main_largo--alg, .main_largo--alg .footer_mod--alg, .main_largo--geo, .main_largo--geo .footer_mod--geo, .main_largo--gra, .main_largo--gra .footer_mod--gra, .main_largo--frac, footer, .fin, .redSocial {
+@media (max-width: 770px) and (min-width: 567px) {
+  header, .h1, .ft, .fk, .desplegableInicio, .cuerpoIndex, .mapa, .main_largo--alg, .main_largo--alg .footer_mod--alg, .main_largo--geo, .main_largo--geo .footer_mod--geo, .main_largo--gra, .main_largo--gra .footer_mod--gra, .main_largo--frac, .main_largo--frac .main_largo--con, .main_largo--frac .main_largo--con .cuadro {
     justify-items: justify;
     align-items: justify;
     width: 685px; }
-  .video, .h3, .main_largo--alg .section_materia--alg, .main_largo--alg .section_video--alg, .main_largo--alg .section_sabias--alg, .main_largo--alg .section_jugando--alg, .main_largo--alg .section_comen--alg, .main_largo--geo .section_materia--geo, .main_largo--geo .section_video--geo, .main_largo--geo .section_sabias--geo, .main_largo--geo .section_jugando--geo, .main_largo--geo .section_comen--geo, .main_largo--gra .section_materia--gra, .main_largo--gra .section_video--gra, .main_largo--gra .section_sabias--gra, .main_largo--gra .section_jugando--gra, .main_largo--gra .section_comen--gra, .main_largo--frac .section_materia--frac, .main_largo--frac .section_video--frac, .main_largo--frac .section_sabias--frac, .main_largo--frac .section_jugando--frac, .main_largo--frac .section_comen--frac, .main_largo--frac .footer_mod--frac {
+  .main_largo--alg .plan5, .main_largo--alg .section_materia--alg, .main_largo--alg .section_videos--alg, .main_largo--alg .section_sabias--alg, .main_largo--alg .section_jugando--alg, .main_largo--alg .section_comen--alg, .main_largo--geo .plan5, .main_largo--geo .section_materia--geo, .main_largo--geo .section_videos--geo, .main_largo--geo .section_sabias--geo, .main_largo--geo .section_jugando--geo, .main_largo--geo .section_comen--geo, .main_largo--gra .plan5, .main_largo--gra .section_materia--gra, .main_largo--gra .section_videos--gra, .main_largo--gra .section_sabias--gra, .main_largo--gra .section_jugando--gra, .main_largo--gra .section_comen--gra, .main_largo--frac .plan5, .main_largo--frac .section_materia--frac, .main_largo--frac .section_videos--frac, .main_largo--frac .section_sabias--frac, .main_largo--frac .section_jugando--frac, .main_largo--frac .section_comen--frac {
     justify-items: justify;
     align-items: justify;
     width: 585px; }
   header {
     height: 550px; }
   .h1 {
-    font-size: 25px; }
+    font-size: 25px;
+    padding: 10px; }
   .ft {
     display: grid; }
   .fk {
     text-align: center; }
   .desplegableInicio {
     display: block; }
-  .cuerpoIndex {
-    height: 8000px; }
-  .mapa {
-    height: 400px; }
-  .main_largo--alg {
-    height: 10500px; }
-    .main_largo--alg .footer_mod--alg {
-      height: 400px; }
-  .main_largo--geo {
-    height: 11900px; }
-    .main_largo--geo .footer_mod--geo {
-      height: 400px; }
-  .main_largo--gra {
-    height: 11500px; }
-    .main_largo--gra .footer_mod--gra {
-      height: 400px; }
-  .main_largo--frac {
-    height: 11700px; }
-    .main_largo--frac .footer_mod--frac {
-      height: 300px; }
   footer {
+    width: 685px;
     height: 400px; }
-  .fin {
-    height: 100px; }
-  .redSocial {
-    display: block;
-    list-style: none;
-    height: 250px; }
-  .red1 {
-    display: block;
-    border: dashed 5px brown;
-    text-align: center; } }
-
-/* ********************************************************* */
-/*   		          	media 576	                         */
-/* ********************************************************* */
-@media (max-width: 576px) {
-  .grafi1 {
-    display: grid;
-    background-color: #CFA14C;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: "geo" "video" "sabias" "jugando" "comenta"; }
-  header {
-    width: 570px;
-    height: 500px; }
-  .fk {
-    width: 570px; }
-  .h1 {
-    width: 570px; }
-  .ft {
-    width: 570px; }
-  main {
-    width: 570px;
-    height: 1200px; }
+  /*Index*/
+  .especialIndex {
+    height: 1400px; }
+  .cuerpoIndex {
+    height: 1300px; }
   .mapa {
-    width: 570px; }
-  .fin {
-    width: 570; }
-  .redsocial {
-    width: 570; } }
+    height: 200px; }
+    .mapa img {
+      width: 200px;
+      height: 90px;
+      padding: 10px; }
+    .mapa .cuadroIndex {
+      width: 200px;
+      display: inline-block; } }
 
-/* ********************************************************* */
-/*   		          	media 480	                         */
-/* ********************************************************* */
-@media (max-width: 480px) {
-  header {
-    width: 450px;
-    height: 500px; }
-  .fk {
-    width: 450px; }
-  .h1 {
-    width: 450px; }
-  .ft {
-    width: 450px; }
-  .mapa {
-    width: 450px; }
-  .grafi1 {
-    display: grid;
-    background-color: #CFA14C;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: "geo" "video" "sabias" "jugando" "comenta"; } }
+/*algebra*/
+.main_largo--alg {
+  height: 10080px; }
+  .main_largo--alg .plan5 {
+    grid-template-rows: 120px;
+    grid-template-columns: 250px 350px;
+    height: 150px; }
+    .main_largo--alg .plan5 img {
+      width: 250px;
+      height: 120px;
+      padding: 10px; }
+    .main_largo--alg .plan5 .desplegable {
+      width: 450px; }
+  .main_largo--alg .main_mod--alg {
+    grid-template-rows: 150px; }
+  .main_largo--alg .footer_mod--alg {
+    height: 400px; }
+
+/*geometria*/
+.main_largo--geo {
+  height: 11750px; }
+  .main_largo--geo .plan5 {
+    grid-template-rows: 120px;
+    grid-template-columns: 250px 350px;
+    height: 150px; }
+    .main_largo--geo .plan5 img {
+      width: 250px;
+      height: 120px;
+      padding: 10px; }
+    .main_largo--geo .plan5 .desplegable {
+      width: 450px; }
+  .main_largo--geo .main_mod--geo {
+    grid-template-rows: 150px; }
+  .main_largo--geo .section_materia--geo {
+    grid-template-columns: 685px; }
+  .main_largo--geo .footer_mod--geo {
+    height: 400px; }
+
+/*graficos*/
+.main_largo--gra {
+  height: 11250px; }
+  .main_largo--gra .plan5 {
+    grid-template-rows: 120px;
+    grid-template-columns: 250px 350px;
+    height: 150px;
+    padding: 10px; }
+    .main_largo--gra .plan5 img {
+      width: 250px;
+      height: 120px;
+      padding: 10px; }
+    .main_largo--gra .plan5 .desplegable {
+      width: 450px; }
+  .main_largo--gra .main_mod--gra {
+    grid-template-rows: 150px; }
+  .main_largo--gra .section_materia--gra {
+    grid-template-columns: 685px; }
+  .main_largo--gra .footer_mod--gra {
+    height: 400px; }
+
+/*fracciones*/
+.main_largo--frac {
+  height: 11700px;
+  /*footer .footer_mod--frac{
+	    	width: 685px;
+	    	height: 300px;	  */
+  /*.fin{
+		   	 	@extend %MedClases;
+		   	 	height: 100px;	 	}
+			.redSocial{
+				width: 500px;
+				display: inline-block;
+				list-style:none;
+				height: 250px;	
+				text-align: center;	}
+			.red1 a{
+				width: 250px;
+				display: inline-block;
+				border: dashed 5px brown;
+					}}
+			*/
+  /*contacto*/
+  /* ********************************************************* */
+  /*   		          	media 576	                         */
+  /* ********************************************************* */
+  /*algebra*/
+  /*geometria*/
+  /*graficos*/
+  /*fracciones*/ }
+  .main_largo--frac .plan5 {
+    grid-template-rows: 120px;
+    grid-template-columns: 250px 350px;
+    height: 150px;
+    padding: 10px; }
+    .main_largo--frac .plan5 img {
+      width: 250px;
+      height: 120px;
+      padding: 10px; }
+    .main_largo--frac .plan5 .desplegable {
+      width: 450px; }
+  .main_largo--frac .main_mod--frac {
+    grid-template-rows: 150px; }
+  .main_largo--frac .section_materia--frac {
+    grid-template-columns: 685px; }
+  .main_largo--frac .main_largo--con {
+    height: 900px; }
+    .main_largo--frac .main_largo--con img {
+      width: 250px;
+      height: 120px;
+      padding: 10px; }
+  @media (max-width: 576px) and (min-width: 481px) {
+    .main_largo--frac {
+      /*Index*/ }
+      .main_largo--frac header, .main_largo--frac .h1, .main_largo--frac .ft, .main_largo--frac .fk, .main_largo--frac .desplegableInicio, .main_largo--frac .cuerpoIndex, .main_largo--frac .mapa, .main_largo--frac .main_largo--alg, .main_largo--frac .main_largo--alg .footer_mod--alg, .main_largo--frac .main_largo--geo, .main_largo--frac .main_largo--geo .footer_mod--geo, .main_largo--frac .main_largo--gra, .main_largo--frac .main_largo--gra .footer_mod--gra, .main_largo--frac .main_largo--frac, .main_largo--frac .main_largo--frac .main_largo--con, .main_largo--frac .main_largo--frac .main_largo--con .cuadro {
+        justify-items: justify;
+        align-items: justify;
+        width: 491px; }
+      .main_largo--frac .main_largo--alg .plan5, .main_largo--frac .main_largo--alg .section_materia--alg, .main_largo--frac .main_largo--alg .section_videos--alg, .main_largo--frac .main_largo--alg .section_sabias--alg, .main_largo--frac .main_largo--alg .section_jugando--alg, .main_largo--frac .main_largo--alg .section_comen--alg, .main_largo--frac .main_largo--geo .plan5, .main_largo--frac .main_largo--geo .section_materia--geo, .main_largo--frac .main_largo--geo .section_videos--geo, .main_largo--frac .main_largo--geo .section_sabias--geo, .main_largo--frac .main_largo--geo .section_jugando--geo, .main_largo--frac .main_largo--geo .section_comen--geo, .main_largo--frac .main_largo--gra .plan5, .main_largo--frac .main_largo--gra .section_materia--gra, .main_largo--frac .main_largo--gra .section_videos--gra, .main_largo--frac .main_largo--gra .section_sabias--gra, .main_largo--frac .main_largo--gra .section_jugando--gra, .main_largo--frac .main_largo--gra .section_comen--gra, .main_largo--frac .main_largo--frac .plan5, .main_largo--frac .main_largo--frac .section_materia--frac, .main_largo--frac .main_largo--frac .section_videos--frac, .main_largo--frac .main_largo--frac .section_sabias--frac, .main_largo--frac .main_largo--frac .section_jugando--frac, .main_largo--frac .main_largo--frac .section_comen--frac {
+        justify-items: justify;
+        align-items: justify;
+        width: 385px; }
+      .main_largo--frac header {
+        height: 550px; }
+      .main_largo--frac .h1 {
+        font-size: 25px;
+        padding: 10px; }
+      .main_largo--frac .ft {
+        display: grid; }
+      .main_largo--frac .fk {
+        text-align: center; }
+      .main_largo--frac .desplegableInicio {
+        display: block; }
+      .main_largo--frac footer {
+        width: 491px;
+        height: 400px; }
+      .main_largo--frac .especialIndex {
+        height: 1400px; }
+      .main_largo--frac .cuerpoIndex {
+        height: 1300px; }
+      .main_largo--frac .mapa {
+        height: 200px; }
+        .main_largo--frac .mapa img {
+          width: 200px;
+          height: 90px;
+          padding: 10px; }
+        .main_largo--frac .mapa .cuadroIndex {
+          width: 200px;
+          display: inline-block; } }
+  .main_largo--frac .main_largo--alg {
+    height: 10080px; }
+    .main_largo--frac .main_largo--alg .plan5 {
+      grid-template-rows: 120px;
+      grid-template-columns: 250px 350px;
+      height: 150px; }
+      .main_largo--frac .main_largo--alg .plan5 img {
+        width: 250px;
+        height: 120px;
+        padding: 10px; }
+      .main_largo--frac .main_largo--alg .plan5 .desplegable {
+        width: 450px; }
+    .main_largo--frac .main_largo--alg .main_mod--alg {
+      grid-template-rows: 150px; }
+    .main_largo--frac .main_largo--alg .footer_mod--alg {
+      height: 400px; }
+  .main_largo--frac .main_largo--geo {
+    height: 11750px; }
+    .main_largo--frac .main_largo--geo .plan5 {
+      grid-template-rows: 120px;
+      grid-template-columns: 250px 350px;
+      height: 150px; }
+      .main_largo--frac .main_largo--geo .plan5 img {
+        width: 250px;
+        height: 120px;
+        padding: 10px; }
+      .main_largo--frac .main_largo--geo .plan5 .desplegable {
+        width: 450px; }
+    .main_largo--frac .main_largo--geo .main_mod--geo {
+      grid-template-rows: 150px; }
+    .main_largo--frac .main_largo--geo .section_materia--geo {
+      grid-template-columns: 685px; }
+    .main_largo--frac .main_largo--geo .footer_mod--geo {
+      height: 400px; }
+  .main_largo--frac .main_largo--gra {
+    height: 11250px; }
+    .main_largo--frac .main_largo--gra .plan5 {
+      grid-template-rows: 120px;
+      grid-template-columns: 250px 350px;
+      height: 150px;
+      padding: 10px; }
+      .main_largo--frac .main_largo--gra .plan5 img {
+        width: 250px;
+        height: 120px;
+        padding: 10px; }
+      .main_largo--frac .main_largo--gra .plan5 .desplegable {
+        width: 450px; }
+    .main_largo--frac .main_largo--gra .main_mod--gra {
+      grid-template-rows: 150px; }
+    .main_largo--frac .main_largo--gra .section_materia--gra {
+      grid-template-columns: 685px; }
+    .main_largo--frac .main_largo--gra .footer_mod--gra {
+      height: 400px; }
+  .main_largo--frac .main_largo--frac {
+    height: 11700px;
+    /*footer .footer_mod--frac{
+	    	width: 685px;
+	    	height: 300px;	  */
+    /*.fin{
+		   	 	@extend %MedClas570;
+		   	 	height: 100px;	 	}
+			.redSocial{
+				width: 500px;
+				display: inline-block;
+				list-style:none;
+				height: 250px;	
+				text-align: center;	}
+			.red1 a{
+				width: 250px;
+				display: inline-block;
+				border: dashed 5px brown;
+					}}
+			*/
+    /*contacto*/
+    /* ********************************************************* */
+    /*   		          	media 480	                         */
+    /* ********************************************************* */ }
+    .main_largo--frac .main_largo--frac .plan5 {
+      grid-template-rows: 120px;
+      grid-template-columns: 250px 350px;
+      height: 150px;
+      padding: 10px; }
+      .main_largo--frac .main_largo--frac .plan5 img {
+        width: 250px;
+        height: 120px;
+        padding: 10px; }
+      .main_largo--frac .main_largo--frac .plan5 .desplegable {
+        width: 450px; }
+    .main_largo--frac .main_largo--frac .main_mod--frac {
+      grid-template-rows: 150px; }
+    .main_largo--frac .main_largo--frac .section_materia--frac {
+      grid-template-columns: 685px; }
+    .main_largo--frac .main_largo--frac .main_largo--con {
+      height: 900px; }
+      .main_largo--frac .main_largo--frac .main_largo--con img {
+        width: 250px;
+        height: 120px;
+        padding: 10px; }
+    @media (max-width: 480px) {
+      .main_largo--frac .main_largo--frac header {
+        width: 450px;
+        height: 500px; }
+      .main_largo--frac .main_largo--frac .fk {
+        width: 450px; }
+      .main_largo--frac .main_largo--frac .h1 {
+        width: 450px; }
+      .main_largo--frac .main_largo--frac .ft {
+        width: 450px; }
+      .main_largo--frac .main_largo--frac .mapa {
+        width: 450px; }
+      .main_largo--frac .main_largo--frac .grafi1 {
+        display: grid;
+        background-color: #CFA14C;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: "geo" "video" "sabias" "jugando" "comenta"; } }
 
 /* ************************************************************************************ */
 /*                      Aplicando estilos por etiquetas                                 */
