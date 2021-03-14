@@ -156,10 +156,10 @@
 		.section_sabias--frac{	@extend %MedClases;	    }
 		.section_jugando--frac{	@extend %MedClases;	    }
 		.section_comen--frac{	@extend %MedClases;	    }
-	    /*footer .footer_mod--frac{
+	   footer .footer_mod--frac{
 	    	width: 685px;
-	    	height: 300px;	  */
-		   	/*.fin{
+	    	height: 300px;	  
+		   	.fin{
 		   	 	@extend %MedClases;
 		   	 	height: 100px;	 	}
 			.redSocial{
@@ -172,8 +172,8 @@
 				width: 250px;
 				display: inline-block;
 				border: dashed 5px brown;
-					}}
-			*/
+					}}}
+			
 	
 	/*contacto*/
 	.main_largo--con{
@@ -206,11 +206,12 @@
 
     header{
       @extend %pe570;
-      height: 550px;	    }
+      height: 650px;	    }
 	    .h1{
 	      @extend %pe570;
 	      font-size: 20px;	    
-	  	  padding: 10px;		}
+	  	  padding: 10px;
+		  height: 140;		}
 	    .ft{
 	      @extend %pe570;
 	      img{
@@ -223,7 +224,12 @@
 	      text-align: center;   }
 	    .desplegableInicio {
 	    	display: block;   
-	    	@extend %pe570; }
+	    	@extend %pe570;
+			.dos{
+				width: 490px;
+				height: 40px;
+				text-align: center;
+			}}
 
 	footer{
 		width: 491px;
@@ -231,17 +237,18 @@
     
 	/*Index*/
    	.especialIndex{
-   		height: 1400px;   	}
+   		height: 1700px;   	}
     	.cuerpoIndex{
 	    	@extend %pe570;      
 	    	height: 1300px;	    }
        	.mapa{
 	    	@extend %pe570;
-	      	height: 200px;	
+	      	height: 280px;	
       	img{
     		width: 200px;
   			height: 90px;
-  			padding: 10px;		}
+  			padding: 10px;	
+			text-align: center;	}
   		.cuadroIndex{
   			width: 200px;
   			display: inline-block; 	}} 		
@@ -250,105 +257,129 @@
     /*algebra*/
     .main_largo--alg{
     	@extend %pe570;
-    	height: 10080px;  
+    	height: 11780px;  
     	.plan5 {
     		@extend %PeClases;	
-    		grid-template-rows: 120px;
-    		grid-template-columns: 250px 350px;
-    		height: 150px;
+    		grid-template-rows: 150px 150px;
+    		grid-template-columns: 450px;
+    		height: 350px;
     		img{
     			width: 250px;
   				height: 120px;
   				padding: 10px;		}
   			.desplegable{
-  				width: 450px;		}} 
+  				width: 450px;		
+				height: 150px;}} 
   		.main_mod--alg{
-  				grid-template-rows: 150px;		}
+  				grid-template-rows: 300px;		}
     	.section_materia--alg{	@extend %PeClases;	    }
-		.section_videos--alg{	@extend %PeClases;	    }
+		.section_videos--alg{	@extend %PeClases;
+			iframe{
+				width: 390px;
+				height: 300px;			}    }
 		.section_sabias--alg{	@extend %PeClases;	    }
 		.section_jugando--alg{	@extend %PeClases;	    }
-		.section_comen--alg{	@extend %PeClases;	    }
+		.section_comen--alg{	@extend %PeClases;	    
+				textarea{
+					width: 385px;				}}
    		.footer_mod--alg{		@extend %pe570;
     		height: 400px;	    }}
 
 	/*geometria*/
     .main_largo--geo{
     	@extend %pe570;
-    	height: 11750px; 
+    	height: 14000px; 
     	.plan5 {
     		@extend %PeClases;	
-    		grid-template-rows: 120px;
-    		grid-template-columns: 250px 350px;
-    		height: 150px;
+    		grid-template-rows: 150px 150px;
+    		grid-template-columns: 450px;
+    		height: 350px;
     		img{
     			width: 250px;
   				height: 120px;
   				padding: 10px;		}
   			.desplegable{
-  				width: 450px;		}} 
+  				width: 450px;		
+				height: 150px;}} 
   		.main_mod--geo{
-  				grid-template-rows: 150px;		}
+  				grid-template-rows: 300px;		}
     	.section_materia--geo{ 	@extend %PeClases;	 
 	    	grid-template-columns: 685px;  				}
-		.section_videos--geo{	@extend %PeClases;	    }
+		.section_videos--geo{	@extend %PeClases;	 
+			iframe{
+				width: 390px;
+				height: 300px;			}      }
 		.section_sabias--geo{	@extend %PeClases;	    }
 		.section_jugando--geo{	@extend %PeClases;	    }
-		.section_comen--geo{	@extend %PeClases;	    }
+		.section_comen--geo{	@extend %PeClases;	 
+			textarea{
+				width: 385px;			}   }
 	    .footer_mod--geo{		@extend %pe570;
 	    	height: 400px;	    }  }  
 
 	/*graficos*/
     .main_largo--gra{
     	@extend %pe570;
-    	height: 11250px; 
+    	height: 13650px; 
     	.plan5 {
     		@extend %PeClases;	
-    		grid-template-rows: 120px;
-    		grid-template-columns: 250px 350px;
-    		height: 150px;
+    		grid-template-rows: 150px 150px; 
+    		grid-template-columns: 450px;
+    		height: 350px;
     		padding: 10px;	
     		img{
     			width: 250px;
   				height: 120px;
   				padding: 10px;		}
   			.desplegable{
-  				width: 450px;		}} 
+  				width: 450px;	
+				height: 150px;	}} 
   		.main_mod--gra{
-  				grid-template-rows: 150px;		}
+  				grid-template-rows: 300px;		}
     	.section_materia--gra{	@extend %PeClases;	  
     		grid-template-columns: 685px; 				}
-		.section_videos--gra{	@extend %PeClases;	    }
+		.section_videos--gra{	@extend %PeClases;	   
+			iframe{
+				width: 390px;
+				height: 300px;			}  }
 		.section_sabias--gra{	@extend %PeClases;	    }
 		.section_jugando--gra{	@extend %PeClases;	    }
-		.section_comen--gra{	@extend %PeClases;	    }
+		.section_comen--gra{	@extend %PeClases;	 
+			textarea{
+				width: 385px;			}    }
 	    .footer_mod--gra{		@extend %pe570;
 	    	height: 400px;	    }}
 
 	/*fracciones*/
     .main_largo--frac{
     	@extend %pe570;
-    	height: 11700px; 
+    	height: 14100px; 
     	.plan5 {
     		@extend %PeClases;	
-    		grid-template-rows: 120px;
-    		grid-template-columns: 250px 350px;
-    		height: 150px;
+    		grid-template-rows: 150px 150px;
+    		grid-template-columns: 450px;
+    		height: 350px;
     		padding: 10px;
     		img{
     			width: 250px;
   				height: 120px;
   				padding: 10px;		}
   			.desplegable{
-  				width: 450px;		}} 
+  				width: 450px;		
+				  height: 150px;	}} 
   		.main_mod--frac{
-  				grid-template-rows: 150px;		}
+  				grid-template-rows: 300px;		}
     	.section_materia--frac{	@extend %PeClases;	    
 	    	grid-template-columns: 685px;	    }
-		.section_videos--frac{	@extend %PeClases;	    }
+		.section_videos--frac{	@extend %PeClases;	
+			iframe{
+				width: 390px;
+				height: 300px;			}     }
 		.section_sabias--frac{	@extend %PeClases;	    }
 		.section_jugando--frac{	@extend %PeClases;	    }
-		.section_comen--frac{	@extend %PeClases;	    }
+		.section_comen--frac{	@extend %PeClases;	 
+			textarea{
+				width: 385px;			}     }
 	    }
 	    footer .footer_mod--frac{
 	    	width: 685px;
@@ -379,8 +410,9 @@
   				padding: 10px;		}
   		.cuadro{
   			@extend %pe570; 
-  			height: 30px;	  				}}
+  			height: 30px;	  				}
+			  textarea{
+				width: 385px;			}     }
+			}
 
-/* ********************************************************* */
-/*   		          	media 576	                         */
-/* ********************************************************* */ 
+
