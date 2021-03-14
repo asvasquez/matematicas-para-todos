@@ -14,8 +14,11 @@
 	justify-items:justify;
 	align-items: justify;
 	width: 585px;			}
-
-    header{
+	
+	html{
+		width: 685;			}
+    
+	header{
       @extend %Med700;
       height: 550px;	    }
 	    .h1{
@@ -32,13 +35,29 @@
 	    	display: block;   
 	    	@extend %Med700; }
 
-	footer{
-		width: 685px;
-   	  	height: 400px;		}
-    
+	 footer{
+		@extend %Med700;
+		display: block;
+		padding: 20px;
+		height: 200px;		}
+		.fin{
+			@extend %MedClases;
+			height: 50px;	 	}
+		.redSocial{
+			width: 680px;
+			display:inline-block;
+			text-align: left;	}
+		.red1 {
+			width: 150px;
+		a{
+			width: 450px;
+			display: inline-block;
+			text-align: left;
+		}}
+
 	/*Index*/
    	.especialIndex{
-   		height: 1400px;   	}
+   		height: 1400px;   	
     	.cuerpoIndex{
 	    	@extend %Med700;      
 	    	height: 1300px;	    }
@@ -51,8 +70,7 @@
   			padding: 10px;		}
   		.cuadroIndex{
   			width: 200px;
-  			display: inline-block; 	}} 		
-  	 	} 
+  			display: inline-block; 	}} 	} 
     
     /*algebra*/
     .main_largo--alg{
@@ -76,8 +94,7 @@
 		.section_sabias--alg{	@extend %MedClases;	    }
 		.section_jugando--alg{	@extend %MedClases;	    }
 		.section_comen--alg{	@extend %MedClases;	    }
-   		.footer_mod--alg{		@extend %Med700;
-    		height: 400px;	    }}
+   		}
 
 	/*geometria*/
     .main_largo--geo{
@@ -102,8 +119,7 @@
 		.section_sabias--geo{	@extend %MedClases;	    }
 		.section_jugando--geo{	@extend %MedClases;	    }
 		.section_comen--geo{	@extend %MedClases;	    }
-	    .footer_mod--geo{		@extend %Med700;
-	    	height: 400px;	    }  }  
+	      }  
 
 	/*graficos*/
     .main_largo--gra{
@@ -129,8 +145,7 @@
 		.section_sabias--gra{	@extend %MedClases;	    }
 		.section_jugando--gra{	@extend %MedClases;	    }
 		.section_comen--gra{	@extend %MedClases;	    }
-	    .footer_mod--gra{		@extend %Med700;
-	    	height: 400px;	    }}
+	   }
 
 	/*fracciones*/
     .main_largo--frac{
@@ -156,29 +171,13 @@
 		.section_sabias--frac{	@extend %MedClases;	    }
 		.section_jugando--frac{	@extend %MedClases;	    }
 		.section_comen--frac{	@extend %MedClases;	    }
-	   footer .footer_mod--frac{
-	    	width: 685px;
-	    	height: 300px;	  
-		   	.fin{
-		   	 	@extend %MedClases;
-		   	 	height: 100px;	 	}
-			.redSocial{
-				width: 500px;
-				display: inline-block;
-				list-style:none;
-				height: 250px;	
-				text-align: center;	}
-			.red1 a{
-				width: 250px;
-				display: inline-block;
-				border: dashed 5px brown;
-					}}}
+	   }
 			
 	
 	/*contacto*/
 	.main_largo--con{
 		@extend %Med700;
-    	height: 900px; 
+    	height: 1450px; 
     	img{
     			width: 250px;
   				height: 120px;
@@ -186,15 +185,12 @@
   		.cuadro{
   			@extend %Med700; 		}} 
 	
-
-
-
+		  }
 
 /* ********************************************************* */
 /*   		          	media 576	                         */
 /* ********************************************************* */ 
 @media (max-width: 576px) /*and (min-width: 481px) */{
-
 %pe570{
 	justify-items:justify;
 	align-items: justify;
@@ -204,7 +200,10 @@
 	align-items: justify;
 	width: 385px;			}
 
-    header{
+	html{
+		width: 491;		}
+
+		header{
       @extend %pe570;
       height: 650px;	    }
 	    .h1{
@@ -232,12 +231,27 @@
 			}}
 
 	footer{
-		width: 491px;
-   	  	height: 400px;		}
-    
+		@extend %pe570;
+		display: block;
+		padding: 20px;
+		height: 250px;		}
+   			    .fin{
+					@extend %PeClases;
+					height: 50px;	 	}
+				.redSocial{
+					width: 500px;
+					display:block;
+					text-align: left;	}
+				.red1 {
+					width: 200px;
+					a{
+					width: 450px;
+					display: block;
+					text-align: left;
+											}}
 	/*Index*/
    	.especialIndex{
-   		height: 1700px;   	}
+   		height: 1700px;   	
     	.cuerpoIndex{
 	    	@extend %pe570;      
 	    	height: 1300px;	    }
@@ -252,7 +266,7 @@
   		.cuadroIndex{
   			width: 200px;
   			display: inline-block; 	}} 		
-  	 	
+		  }
     
     /*algebra*/
     .main_largo--alg{
@@ -282,8 +296,7 @@
 		.section_comen--alg{	@extend %PeClases;	    
 				textarea{
 					width: 385px;				}}
-   		.footer_mod--alg{		@extend %pe570;
-    		height: 400px;	    }}
+   		}
 
 	/*geometria*/
     .main_largo--geo{
@@ -314,8 +327,7 @@
 		.section_comen--geo{	@extend %PeClases;	 
 			textarea{
 				width: 385px;			}   }
-	    .footer_mod--geo{		@extend %pe570;
-	    	height: 400px;	    }  }  
+	     }  
 
 	/*graficos*/
     .main_largo--gra{
@@ -347,8 +359,7 @@
 		.section_comen--gra{	@extend %PeClases;	 
 			textarea{
 				width: 385px;			}    }
-	    .footer_mod--gra{		@extend %pe570;
-	    	height: 400px;	    }}
+	   }
 
 	/*fracciones*/
     .main_largo--frac{
@@ -381,29 +392,11 @@
 			textarea{
 				width: 385px;			}     }
 	    }
-	    footer .footer_mod--frac{
-	    	width: 685px;
-	    	height: 300px;	  
-		   	.fin{
-		   	 	@extend %PeClases;
-		   	 	height: 100px;	 	}
-			.redSocial{
-				width: 500px;
-				display: inline-block;
-				list-style:none;
-				height: 250px;	
-				text-align: center;	}
-			.red1 a{
-				width: 250px;
-				display: inline-block;
-				border: dashed 5px brown;
-					}}
-			
-	
+		
 	/*contacto*/
 	.main_largo--con{
 		@extend %pe570;
-    	height: 900px; 
+    	height: 1650px; 
     	img{
     			width: 250px;
   				height: 120px;
@@ -413,6 +406,6 @@
   			height: 30px;	  				}
 			  textarea{
 				width: 385px;			}     }
-			}
+			  }
 
 

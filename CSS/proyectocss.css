@@ -176,7 +176,7 @@ textarea:hover {
 /*                         Aplicando estilos por etiquetas   "main Index"                   */
 /* ************************************************************************************ */
 .main_largo--con {
-  height: 1000px;
+  height: 1400px;
   width: 1220px; }
 
 header {
@@ -295,7 +295,8 @@ footer {
   display: inline-block;
   padding: 20px;
   width: 1220px;
-  background-color: #a2f2ad; }
+  background-color: #a2f2ad;
+  background-image: linear-gradient(#D1FDD7, #257315); }
 
 h4 {
   color: #1d0c7a;
@@ -382,12 +383,6 @@ h4 {
   border: dashed 7px brown;
   padding: 5px; }
 
-.footer_mod--gra {
-  display: inline-block;
-  padding: 20px;
-  width: 1220px;
-  background-image: linear-gradient(#D1FDD7, #257315); }
-
 /* ************************************************************************************ */
 /*                      Aplicando estilos por etiquetas  "geometria"                      */
 /* ************************************************************************************ */
@@ -432,12 +427,6 @@ h4 {
   align-items: stretch;
   border: dashed 7px brown;
   padding: 5px; }
-
-.footer_mod--geo {
-  display: inline-block;
-  padding: 20px;
-  width: 1220px;
-  background-image: linear-gradient(#D1FDD7, #257315); }
 
 /* ************************************************************************************ */
 /*                      Aplicando estilos por etiquetas  "fracciones"                      */
@@ -484,12 +473,6 @@ h4 {
   border: dashed 7px brown;
   padding: 5px; }
 
-.footer_mod--frac {
-  display: inline-block;
-  padding: 20px;
-  width: 1220px;
-  background-image: linear-gradient(#D1FDD7, #257315); }
-
 /* ************************************************************************************ */
 /*                      Aplicando estilos por etiquetas  "algebra"                      */
 /* ************************************************************************************ */
@@ -535,12 +518,6 @@ h4 {
   border: dashed 7px brown;
   padding: 5px; }
 
-.footer_mod--alg {
-  display: inline-block;
-  padding: 20px;
-  width: 1220px;
-  background-image: linear-gradient(#D1FDD7, #257315); }
-
 table {
   border: solid 2px; }
 
@@ -551,14 +528,16 @@ table {
 /*   		          	media 700	                         */
 /* ********************************************************* */
 @media (max-width: 770px) and (min-width: 567px) {
-  header, .h1, .ft, .fk, .desplegableInicio, .cuerpoIndex, .mapa, .main_largo--alg, .main_largo--alg .footer_mod--alg, .main_largo--geo, .main_largo--geo .footer_mod--geo, .main_largo--gra, .main_largo--gra .footer_mod--gra, .main_largo--frac, .main_largo--con, .main_largo--con .cuadro {
+  header, .h1, .ft, .fk, .desplegableInicio, footer, .especialIndex .cuerpoIndex, .especialIndex .mapa, .main_largo--alg, .main_largo--geo, .main_largo--gra, .main_largo--frac, .main_largo--con, .main_largo--con .cuadro {
     justify-items: justify;
     align-items: justify;
     width: 685px; }
-  .main_largo--alg .plan5, .main_largo--alg .section_materia--alg, .main_largo--alg .section_videos--alg, .main_largo--alg .section_sabias--alg, .main_largo--alg .section_jugando--alg, .main_largo--alg .section_comen--alg, .main_largo--geo .plan5, .main_largo--geo .section_materia--geo, .main_largo--geo .section_videos--geo, .main_largo--geo .section_sabias--geo, .main_largo--geo .section_jugando--geo, .main_largo--geo .section_comen--geo, .main_largo--gra .plan5, .main_largo--gra .section_materia--gra, .main_largo--gra .section_videos--gra, .main_largo--gra .section_sabias--gra, .main_largo--gra .section_jugando--gra, .main_largo--gra .section_comen--gra, .main_largo--frac .plan5, .main_largo--frac .section_materia--frac, .main_largo--frac .section_videos--frac, .main_largo--frac .section_sabias--frac, .main_largo--frac .section_jugando--frac, .main_largo--frac .section_comen--frac, .main_largo--frac footer .footer_mod--frac .fin {
+  .fin, .main_largo--alg .plan5, .main_largo--alg .section_materia--alg, .main_largo--alg .section_videos--alg, .main_largo--alg .section_sabias--alg, .main_largo--alg .section_jugando--alg, .main_largo--alg .section_comen--alg, .main_largo--geo .plan5, .main_largo--geo .section_materia--geo, .main_largo--geo .section_videos--geo, .main_largo--geo .section_sabias--geo, .main_largo--geo .section_jugando--geo, .main_largo--geo .section_comen--geo, .main_largo--gra .plan5, .main_largo--gra .section_materia--gra, .main_largo--gra .section_videos--gra, .main_largo--gra .section_sabias--gra, .main_largo--gra .section_jugando--gra, .main_largo--gra .section_comen--gra, .main_largo--frac .plan5, .main_largo--frac .section_materia--frac, .main_largo--frac .section_videos--frac, .main_largo--frac .section_sabias--frac, .main_largo--frac .section_jugando--frac, .main_largo--frac .section_comen--frac {
     justify-items: justify;
     align-items: justify;
     width: 585px; }
+  html {
+    width: 685; }
   header {
     height: 550px; }
   .h1 {
@@ -571,136 +550,125 @@ table {
   .desplegableInicio {
     display: block; }
   footer {
-    width: 685px;
-    height: 400px; }
+    display: block;
+    padding: 20px;
+    height: 200px; }
+  .fin {
+    height: 50px; }
+  .redSocial {
+    width: 680px;
+    display: inline-block;
+    text-align: left; }
+  .red1 {
+    width: 150px; }
+    .red1 a {
+      width: 450px;
+      display: inline-block;
+      text-align: left; }
   /*Index*/
   .especialIndex {
     height: 1400px; }
-  .cuerpoIndex {
-    height: 1300px; }
-  .mapa {
-    height: 200px; }
-    .mapa img {
-      width: 200px;
-      height: 90px;
+    .especialIndex .cuerpoIndex {
+      height: 1300px; }
+    .especialIndex .mapa {
+      height: 200px; }
+      .especialIndex .mapa img {
+        width: 200px;
+        height: 90px;
+        padding: 10px; }
+      .especialIndex .mapa .cuadroIndex {
+        width: 200px;
+        display: inline-block; }
+  /*algebra*/
+  .main_largo--alg {
+    height: 10080px; }
+    .main_largo--alg .plan5 {
+      grid-template-rows: 120px;
+      grid-template-columns: 250px 350px;
+      height: 150px; }
+      .main_largo--alg .plan5 img {
+        width: 250px;
+        height: 120px;
+        padding: 10px; }
+      .main_largo--alg .plan5 .desplegable {
+        width: 450px; }
+    .main_largo--alg .main_mod--alg {
+      grid-template-rows: 150px; }
+  /*geometria*/
+  .main_largo--geo {
+    height: 11750px; }
+    .main_largo--geo .plan5 {
+      grid-template-rows: 120px;
+      grid-template-columns: 250px 350px;
+      height: 150px; }
+      .main_largo--geo .plan5 img {
+        width: 250px;
+        height: 120px;
+        padding: 10px; }
+      .main_largo--geo .plan5 .desplegable {
+        width: 450px; }
+    .main_largo--geo .main_mod--geo {
+      grid-template-rows: 150px; }
+    .main_largo--geo .section_materia--geo {
+      grid-template-columns: 685px; }
+  /*graficos*/
+  .main_largo--gra {
+    height: 11250px; }
+    .main_largo--gra .plan5 {
+      grid-template-rows: 120px;
+      grid-template-columns: 250px 350px;
+      height: 150px;
       padding: 10px; }
-    .mapa .cuadroIndex {
-      width: 200px;
-      display: inline-block; } }
-
-/*algebra*/
-.main_largo--alg {
-  height: 10080px; }
-  .main_largo--alg .plan5 {
-    grid-template-rows: 120px;
-    grid-template-columns: 250px 350px;
-    height: 150px; }
-    .main_largo--alg .plan5 img {
+      .main_largo--gra .plan5 img {
+        width: 250px;
+        height: 120px;
+        padding: 10px; }
+      .main_largo--gra .plan5 .desplegable {
+        width: 450px; }
+    .main_largo--gra .main_mod--gra {
+      grid-template-rows: 150px; }
+    .main_largo--gra .section_materia--gra {
+      grid-template-columns: 685px; }
+  /*fracciones*/
+  .main_largo--frac {
+    height: 11700px; }
+    .main_largo--frac .plan5 {
+      grid-template-rows: 120px;
+      grid-template-columns: 250px 350px;
+      height: 150px;
+      padding: 10px; }
+      .main_largo--frac .plan5 img {
+        width: 250px;
+        height: 120px;
+        padding: 10px; }
+      .main_largo--frac .plan5 .desplegable {
+        width: 450px; }
+    .main_largo--frac .main_mod--frac {
+      grid-template-rows: 150px; }
+    .main_largo--frac .section_materia--frac {
+      grid-template-columns: 685px; }
+  /*contacto*/
+  .main_largo--con {
+    height: 1450px; }
+    .main_largo--con img {
       width: 250px;
       height: 120px;
-      padding: 10px; }
-    .main_largo--alg .plan5 .desplegable {
-      width: 450px; }
-  .main_largo--alg .main_mod--alg {
-    grid-template-rows: 150px; }
-  .main_largo--alg .footer_mod--alg {
-    height: 400px; }
-
-/*geometria*/
-.main_largo--geo {
-  height: 11750px; }
-  .main_largo--geo .plan5 {
-    grid-template-rows: 120px;
-    grid-template-columns: 250px 350px;
-    height: 150px; }
-    .main_largo--geo .plan5 img {
-      width: 250px;
-      height: 120px;
-      padding: 10px; }
-    .main_largo--geo .plan5 .desplegable {
-      width: 450px; }
-  .main_largo--geo .main_mod--geo {
-    grid-template-rows: 150px; }
-  .main_largo--geo .section_materia--geo {
-    grid-template-columns: 685px; }
-  .main_largo--geo .footer_mod--geo {
-    height: 400px; }
-
-/*graficos*/
-.main_largo--gra {
-  height: 11250px; }
-  .main_largo--gra .plan5 {
-    grid-template-rows: 120px;
-    grid-template-columns: 250px 350px;
-    height: 150px;
-    padding: 10px; }
-    .main_largo--gra .plan5 img {
-      width: 250px;
-      height: 120px;
-      padding: 10px; }
-    .main_largo--gra .plan5 .desplegable {
-      width: 450px; }
-  .main_largo--gra .main_mod--gra {
-    grid-template-rows: 150px; }
-  .main_largo--gra .section_materia--gra {
-    grid-template-columns: 685px; }
-  .main_largo--gra .footer_mod--gra {
-    height: 400px; }
-
-/*fracciones*/
-.main_largo--frac {
-  height: 11700px; }
-  .main_largo--frac .plan5 {
-    grid-template-rows: 120px;
-    grid-template-columns: 250px 350px;
-    height: 150px;
-    padding: 10px; }
-    .main_largo--frac .plan5 img {
-      width: 250px;
-      height: 120px;
-      padding: 10px; }
-    .main_largo--frac .plan5 .desplegable {
-      width: 450px; }
-  .main_largo--frac .main_mod--frac {
-    grid-template-rows: 150px; }
-  .main_largo--frac .section_materia--frac {
-    grid-template-columns: 685px; }
-  .main_largo--frac footer .footer_mod--frac {
-    width: 685px;
-    height: 300px; }
-    .main_largo--frac footer .footer_mod--frac .fin {
-      height: 100px; }
-    .main_largo--frac footer .footer_mod--frac .redSocial {
-      width: 500px;
-      display: inline-block;
-      list-style: none;
-      height: 250px;
-      text-align: center; }
-    .main_largo--frac footer .footer_mod--frac .red1 a {
-      width: 250px;
-      display: inline-block;
-      border: dashed 5px brown; }
-
-/*contacto*/
-.main_largo--con {
-  height: 900px; }
-  .main_largo--con img {
-    width: 250px;
-    height: 120px;
-    padding: 10px; }
+      padding: 10px; } }
 
 /* ********************************************************* */
 /*   		          	media 576	                         */
 /* ********************************************************* */
 @media (max-width: 576px) {
-  header, .h1, .ft, .fk, .desplegableInicio, .cuerpoIndex, .mapa, .main_largo--alg, .main_largo--alg .footer_mod--alg, .main_largo--geo, .main_largo--geo .footer_mod--geo, .main_largo--gra, .main_largo--gra .footer_mod--gra, .main_largo--frac, .main_largo--con, .main_largo--con .cuadro {
+  header, .h1, .ft, .fk, .desplegableInicio, footer, .especialIndex .cuerpoIndex, .especialIndex .mapa, .main_largo--alg, .main_largo--geo, .main_largo--gra, .main_largo--frac, .main_largo--con, .main_largo--con .cuadro {
     justify-items: justify;
     align-items: justify;
     width: 491px; }
-  .main_largo--alg .plan5, .main_largo--alg .section_materia--alg, .main_largo--alg .section_videos--alg, .main_largo--alg .section_sabias--alg, .main_largo--alg .section_jugando--alg, .main_largo--alg .section_comen--alg, .main_largo--geo .plan5, .main_largo--geo .section_materia--geo, .main_largo--geo .section_videos--geo, .main_largo--geo .section_sabias--geo, .main_largo--geo .section_jugando--geo, .main_largo--geo .section_comen--geo, .main_largo--gra .plan5, .main_largo--gra .section_materia--gra, .main_largo--gra .section_videos--gra, .main_largo--gra .section_sabias--gra, .main_largo--gra .section_jugando--gra, .main_largo--gra .section_comen--gra, .main_largo--frac .plan5, .main_largo--frac .section_materia--frac, .main_largo--frac .section_videos--frac, .main_largo--frac .section_sabias--frac, .main_largo--frac .section_jugando--frac, .main_largo--frac .section_comen--frac, footer .footer_mod--frac .fin {
+  .fin, .main_largo--alg .plan5, .main_largo--alg .section_materia--alg, .main_largo--alg .section_videos--alg, .main_largo--alg .section_sabias--alg, .main_largo--alg .section_jugando--alg, .main_largo--alg .section_comen--alg, .main_largo--geo .plan5, .main_largo--geo .section_materia--geo, .main_largo--geo .section_videos--geo, .main_largo--geo .section_sabias--geo, .main_largo--geo .section_jugando--geo, .main_largo--geo .section_comen--geo, .main_largo--gra .plan5, .main_largo--gra .section_materia--gra, .main_largo--gra .section_videos--gra, .main_largo--gra .section_sabias--gra, .main_largo--gra .section_jugando--gra, .main_largo--gra .section_comen--gra, .main_largo--frac .plan5, .main_largo--frac .section_materia--frac, .main_largo--frac .section_videos--frac, .main_largo--frac .section_sabias--frac, .main_largo--frac .section_jugando--frac, .main_largo--frac .section_comen--frac {
     justify-items: justify;
     align-items: justify;
     width: 385px; }
+  html {
+    width: 491; }
   header {
     height: 650px; }
   .h1 {
@@ -722,23 +690,36 @@ table {
       height: 40px;
       text-align: center; }
   footer {
-    width: 491px;
-    height: 400px; }
+    display: block;
+    padding: 20px;
+    height: 250px; }
+  .fin {
+    height: 50px; }
+  .redSocial {
+    width: 500px;
+    display: block;
+    text-align: left; }
+  .red1 {
+    width: 200px; }
+    .red1 a {
+      width: 450px;
+      display: block;
+      text-align: left; }
   /*Index*/
   .especialIndex {
     height: 1700px; }
-  .cuerpoIndex {
-    height: 1300px; }
-  .mapa {
-    height: 280px; }
-    .mapa img {
-      width: 200px;
-      height: 90px;
-      padding: 10px;
-      text-align: center; }
-    .mapa .cuadroIndex {
-      width: 200px;
-      display: inline-block; }
+    .especialIndex .cuerpoIndex {
+      height: 1300px; }
+    .especialIndex .mapa {
+      height: 280px; }
+      .especialIndex .mapa img {
+        width: 200px;
+        height: 90px;
+        padding: 10px;
+        text-align: center; }
+      .especialIndex .mapa .cuadroIndex {
+        width: 200px;
+        display: inline-block; }
   /*algebra*/
   .main_largo--alg {
     height: 11780px; }
@@ -760,8 +741,6 @@ table {
       height: 300px; }
     .main_largo--alg .section_comen--alg textarea {
       width: 385px; }
-    .main_largo--alg .footer_mod--alg {
-      height: 400px; }
   /*geometria*/
   .main_largo--geo {
     height: 14000px; }
@@ -785,8 +764,6 @@ table {
       height: 300px; }
     .main_largo--geo .section_comen--geo textarea {
       width: 385px; }
-    .main_largo--geo .footer_mod--geo {
-      height: 400px; }
   /*graficos*/
   .main_largo--gra {
     height: 13650px; }
@@ -811,8 +788,6 @@ table {
       height: 300px; }
     .main_largo--gra .section_comen--gra textarea {
       width: 385px; }
-    .main_largo--gra .footer_mod--gra {
-      height: 400px; }
   /*fracciones*/
   .main_largo--frac {
     height: 14100px; }
@@ -837,24 +812,9 @@ table {
       height: 300px; }
     .main_largo--frac .section_comen--frac textarea {
       width: 385px; }
-  footer .footer_mod--frac {
-    width: 685px;
-    height: 300px; }
-    footer .footer_mod--frac .fin {
-      height: 100px; }
-    footer .footer_mod--frac .redSocial {
-      width: 500px;
-      display: inline-block;
-      list-style: none;
-      height: 250px;
-      text-align: center; }
-    footer .footer_mod--frac .red1 a {
-      width: 250px;
-      display: inline-block;
-      border: dashed 5px brown; }
   /*contacto*/
   .main_largo--con {
-    height: 900px; }
+    height: 1650px; }
     .main_largo--con img {
       width: 250px;
       height: 120px;
@@ -877,3 +837,10 @@ h5 {
 .cuadro {
   text-align: center;
   width: 1200px; }
+
+.info {
+  font-family: "Akaya Telivigala";
+  color: cornflowerblue;
+  font-size: 30px;
+  text-align: center;
+  border: solid 2px brown; }
